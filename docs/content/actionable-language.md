@@ -1,0 +1,526 @@
+---
+title: Actionable language
+author: Quinn Keast
+date: 2020-02-17
+order: 03
+---
+
+The content in our digital products and messages shape how our users perceive and use our platforms to get things done. Our writing must help our users understand and take action.
+
+## Heading and subheadings
+
+Headings and subheadings in our interfaces have three goals:
+
+- Help users identify their place
+- Help users understand how things are organized
+- Help users predict what actions they can take
+
+Some specific guidelines for writing headings and subheadings:
+
+- **Be concise.** Headings and subheadings should be scannable and use only as many words are needed to convey their meaning.
+- **Write in sentence case.** Sentence case makes it feel less stiff and formal.
+- **Don’t use punctuation** like periods or semicolons.
+
+```usage
+<Usage type="yes">
+### Yes
+- `TO DO`
+</Usage>
+<Usage type="no">
+### No
+- `TO DO`
+</Usage>
+```
+
+### Conversational headings
+When we’re talking, we connect words with articles like “the,” “for,” “these,” and “an.” If we remove these from our writing, it makes our copy feel stiff and complicated. For conversational headings, use articles and write full sentences.
+
+```usage
+<Usage type="yes">
+### Yes
+- `TO DO`
+</Usage>
+<Usage type="no">
+### No
+- `TO DO`
+</Usage>
+```
+
+### Microcopy
+For labels and microcopy, prioritize short and actionable content by removing articles like “the” and “an.”
+
+```usage
+<Usage type="yes">
+### Yes
+- Add recipe
+</Usage>
+<Usage type="no">
+### No
+- Add this recipe
+</Usage>
+```
+
+## Sentences
+Sentences should provide real value and next steps for our users. They help users cycle between “What’s going on?” and “What do I do next?”
+
+Some specific guidelines for writing sentences:
+
+### Put action before outcome
+
+Start sentences with strong verbs that help users understand what they will do. Include what the outcome of the action will be.
+
+```usage
+<Usage type="yes">
+### Yes
+- Add a recipe to your box.
+</Usage>
+<Usage type="no">
+### No
+- Recipes appear in your box after you add them.
+</Usage>
+```
+
+### Use verbs instead of verb-noun phrases
+
+Look for combinations of verbs and nouns that can be replaced by a single verb.
+
+```usage
+<Usage type="yes">
+### Yes
+- We will **refund** your order.
+</Usage>
+<Usage type="no">
+### No
+- We will **provide a refund** for your order.
+</Usage>
+```
+
+### Don’t use permissive language
+
+Give users confidence about what they should do.
+
+```usage
+<Usage type="yes">
+### Yes
+- Update your taste profile and get the recipes you’ll love most.
+</Usage>
+<Usage type="no">
+### No
+- Update your taste profile and you can get the recipes you’ll love most.
+</Usage>
+```
+
+## Buttons
+Buttons are one of the most important elements in our digital platforms. Most conversion actions are the direct result of the user clicking a button, and the labels used in buttons are at the point when a decision becomes an action.
+
+Always write button labels in sentence case.
+
+```usage
+<Usage type="yes">
+### Yes
+- Skip this box
+</Usage>
+<Usage type="no">
+### No
+- Skip This Box
+</Usage>
+```
+
+### Buttons for action
+
+When buttons enable user actions, the formula is `verb` + `noun`.
+
+```usage
+<Usage type="yes">
+### Yes
+- Add recipe
+- Explore fruit box
+</Usage>
+<Usage type="no">
+### No
+- Add
+- Manage delivery
+</Usage>
+```
+
+### Buttons in confirmations
+
+When buttons are used as calls to action in confirmations, the formula `verb` + `noun` doesn’t have to be followed. Instead, use a verb to clearly convey outcomes, by connecting action to outcome.
+
+```usage
+<Usage type="yes">
+### Yes
+- Dicard changes? **Cancel / Discard**
+</Usage>
+<Usage type="no">
+### No
+- Discard changes? **No / Yes**
+</Usage>
+```
+
+### Buttons for conversion
+When buttons support conversion goals, the formula is `value` + `relevance`.
+
+Instead of writing about what the user does (the action), write about what the user gets (the value). Then, make it more immediately relevant to the specific conversion context.
+
+The length of a button label isn’t usually a problem, as long as they capture the relevant value for the user.
+
+```usage
+<Usage type="yes">
+### Yes
+- Send a friend a free box
+- Get fresh fruit in your next box
+</Usage>
+<Usage type="no">
+### No
+- Send referral
+- Add fruit box to your next box
+</Usage>
+```
+
+Further reading:
+
+- [How to write a call to action that converts](https://unbounce.com/conversion-rate-optimization/how-to-write-a-call-to-action-that-converts-with-case-sudies)
+
+## Links
+
+Links should provide information about what to expect about the associated actions or destination. Users should be able to predict what will happen as a result of clicking a link.
+
+```usage
+<Usage type="yes">
+### Yes
+- View [nutrition information](#).
+</Usage>
+<Usage type="no">
+### No
+- Want nutrition information? [Click here](#).</a>
+</Usage>
+```
+
+### In sentences
+
+Links in full sentences shouldn’t link the whole sentence, but instead only the text that describes the outcome of clicking the link.
+
+```usage
+<Usage type="yes">
+### Yes
+- Set up your [taste profile](#).
+</Usage>
+<Usage type="no">
+### No
+- [Set up your taste profile](#).
+</Usage>
+```
+
+### Outside of sentences
+
+Links that aren’t in full sentences should be treated similarly to buttons, and use the `verb` + `noun` pattern. Don’t punctuate, except with questions marks.
+
+```usage
+<Usage type="yes">
+### Yes
+- [Remove from box](#)
+- [Don’t have an account?](#)
+</Usage>
+<Usage type="no">
+### No
+- [Remove from box.](#).
+- [Don’t have an account](#)
+</Usage>
+```
+
+## Error messages
+
+Error messages have three goals:
+
+- Explain simply and clearly that there is a problem and what that problem is.
+- Provide a solution so that users can return and complete the process immediately.
+- Turn the delay into an experience that is as pleasant as possible.
+
+Some specific things to keep in mind when writing error messages:
+
+### Write without rigidity
+
+Keep it conversational. Adjusting the [tone of voice] to be more formal rather than casual is appropriate, but use restraint.
+
+```usage
+<Usage type="yes">
+### Yes
+- Postal code should have 6 digits
+</Usage>
+<Usage type="no">
+### No
+- Postal code is invalid
+</Usage>
+```
+
+### Write without using the words error or failure
+
+Again, keep it conversational. We’d never say “error!” in conversation if we didn’t understand something.
+
+```usage
+<Usage type="yes">
+### Yes
+- Sorry, we couldn’t save your changes. Try again?
+</Usage>
+<Usage type="no">
+### No
+- Failed to save changes.
+</Usage>
+```
+
+## Confirmation messages
+
+Confirmation messages and dialogues are shown when users take an action that can’t be undone, or is difficult to undo.
+
+Confirmation **messages** should:
+
+- Give the users a chance to confirm or cancel their action
+- Be shown in response to a single action
+- Always include one or two calls to action
+
+Confirmation message **titles** should:
+
+- Ask if they want to continue, using a `verb` + `noun` question.
+- Write in sentence case. Sentence case makes it feel less stiff and formal.
+- Don’t use punctuation like periods or semicolons, other than a question mark.
+
+```usage
+<Usage type="yes">
+### Yes
+- Discard unsaved changes?
+</Usage>
+<Usage type="no">
+### No
+- Discard?
+</Usage>
+```
+
+Confirmation message **body content** should:
+
+- Use plain language to explain action is irreversible or difficult to undo.
+
+```usage
+<Usage type="yes">
+### Yes
+- This can’t be undone
+</Usage>
+<Usage type="no">
+### No
+- If you discard changes, your box will remain unchanged.
+</Usage>
+```
+
+Confirmation message **calls to action** should:
+
+- Clearly convey outcomes, by connection action to outcome.
+
+```usage
+<Usage type="yes">
+### Yes
+- Discard changes? **Cancel** / **Discard**
+</Usage>
+<Usage type="no">
+### No
+- Discard changes? **No** / **Yes**
+</Usage>
+```
+    
+Special case: in the context of canceling accounts, use “Never mind” instead of “cancel” to prevent confusion.
+
+```usage
+<Usage type="yes">
+### Yes
+- Never mind / Cancel account
+</Usage>
+<Usage type="no">
+### No
+- Cancel / Cancel account
+</Usage>
+```
+
+## Success messages
+
+Success messages are shown to users in response to an action they performed, when it succeeds.
+
+Success messages have three goals:
+
+- Provide certainty to the users that the action was completed, and that everything is okay.
+- Provide next steps for users, whether optional or mandatory.
+- Provide positivity. When things go well, we can magnify the positive feeling and create affinity for our experience.
+
+Some specific things to keep in mind when writing success messages:
+
+### Talk about or to the user, not about the action
+
+While it’s important to provide certainty that what the user wanted to do actually happened, it doesn’t need to be in the template “X successfully completed.” Sometimes, this certainty can even be implicit.
+
+Imagine if we let people take and save a photo of a finished meal. When the photo is saved, we need to show a success message so they can be confident the photo was saved.
+
+```usage
+<Usage type="yes">
+### Yes
+- Looks amazing! Bon appetite!
+</Usage>
+<Usage type="no">
+### No
+- Photo successfully saved.
+</Usage>
+```
+
+### If possible, provide a deeper and meaningful aspect of the action taken
+
+Use success messages to reinforce the value that our users get from taking a given action.
+
+If a user adds a fruit box to their weekly box, treat the success message as an opportunity to reinforce that choice.
+
+```usage
+<Usage type="yes">
+### Yes
+- Perfect! Your box will be bursting with fresh fruits every week!
+</Usage>
+<Usage type="no">
+### No
+- Fruit box added to your box.
+</Usage>
+```
+
+## Empty states
+
+Empty states are everywhere. They appear when there’s nothing to show. Sometimes, they appear when the user has yet to add something to a set of items. Other times, they appear when they try to find something and can’t.
+
+Empty states are an opportunity to tell our users what there **is**, even when there’s nothing (``TODO quoting microcopy book``). 
+
+An empty state is a chance to educate users about what’s supposed to be there, what can be done there, and how it will provide value to the user.
+
+Some specific guidelines to keep in mind when writing content for empty states:
+
+### Remember, empty states aren’t a bad thing
+
+Avoid using negative words or phrases. Empty states are transitional and reveal potential.
+
+```usage
+<Usage type="yes">
+### Yes
+- `TODO`
+</Usage>
+<Usage type="no">
+### No
+- `TODO`
+</Usage>
+```
+
+### Say what’s supposed to be here, or what can be done here
+
+Use messages to describe what the user can see or do here, and how it will help them.
+
+```usage
+<Usage type="yes">
+### Yes
+- `TODO`
+</Usage>
+<Usage type="no">
+### No
+- `TODO`
+</Usage>
+```
+
+### Provide a next step
+
+If relevant, tell users exactly how to start using a feature and provide an action they can take.
+
+```usage
+<Usage type="yes">
+### Yes
+- `TODO`
+</Usage>
+<Usage type="no">
+### No
+- `TODO`
+</Usage>
+```
+
+## Placeholders
+
+Placeholders appear in form inputs before the user enters text. As a general rule of thumb, placeholders should be avoided except in very specific situations covered below.
+
+```usage
+<Usage type="yes">
+### Use placeholders for:
+- Fields we really want users to complete.
+- Fields that users might not understand.
+</Usage>
+<Usage type="no">
+### Don’t use placeholders as:
+- Labels for form input fields.
+- Formatting guidelines.
+</Usage>
+```
+
+We use a few different approaches to placeholders.
+
+### Questions
+
+When we really want users to complete a field, we can use placeholders to prompt a question for users to respond to. This should be direct and in the second person, and should have a simple, short answer.
+
+```usage
+<Usage type="yes">
+### Yes
+- What do you want to cook tonight?
+</Usage>
+```
+
+### Categories
+
+When the response to an input field might be from a wide range of options, placeholders can be used to reduce the number of choices and provide guidelines for how to respond to the field.
+
+```usage
+<Usage type="yes">
+### Yes
+- Filter recipes by protein, cuisine
+</Usage>
+```
+
+### Examples
+
+Sometimes, an example will make it easier for users to understand how to answer a field.
+
+```usage
+<Usage type="yes">
+### Yes
+- Such as “Leave inside box at side of house”
+</Usage>
+```
+
+## Helper messages
+
+Sometimes, our users need a bit of help. Helper messages help us support our users when they’re filling out forms or taking an action.
+
+Some specific guidelines for writing helper messages:
+
+### Do users need help?
+
+Before adding helper messages, ask whether users actually need help. The more messages we include on a page or form, the more intimidating it appears to our users.
+
+### Be concise
+
+This is particularly important for helper messages on input fields.
+
+```usage
+<Usage type="yes">
+### Yes
+- 8–12 characters.
+</Usage>
+<Usage type="no">
+### No
+- Password must be between 8–12 characters.
+</Usage>
+```
+
+## Push notifications
+
+- ``TODO``
+
+## Email notifications
+
+- ``TODO``
