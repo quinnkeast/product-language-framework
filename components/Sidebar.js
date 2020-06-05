@@ -13,7 +13,6 @@ import {
   MenuLink
 } from "@reach/menu-button";
 
-
 const SidebarContainer = styled.div`
   @media (min-width: ${breakpoints.tabletPortrait}) {
     margin-top: ${spacing.s};
@@ -150,19 +149,19 @@ const ActiveLink = ({ children, ...props }) => {
 
 const Sidebar = props => {
   const pages = props.pages.sort((a, b) => Number(a.order) - Number(b.order));
-  console.log(props);
+  
   return (
     <SidebarContainer>
       <MobileMenu>
         <Menu>
           <StyledMenuButton>
             <MenuHeading>Content Navigation</MenuHeading><br />
-            {props.path} » {props.currentPageTitle}
+            {props.currentPageTitle}
           </StyledMenuButton>
           <StyledMenuPopover>
             {pages.map(page => (
               <React.Fragment key={page.slug}>
-                <StyledMenuItem onSelect={() => Router.push(`/${props.path}/[slug]`, `/${props.path}/${page.slug}`)} href={`/${props.path}/${page.slug}`}>
+                <StyledMenuItem onSelect={() => Router.push(`/[slug]`, `/${page.slug}`)} href={`/${page.slug}`}>
                   {page.title}
                 </StyledMenuItem>
                 {page.slug && page.slug === props.currentPage && props.sections && <React.Fragment>
@@ -184,8 +183,8 @@ const Sidebar = props => {
         {pages.map(page => (
           <div key={`page-${page.slug}`}>
             <ActiveLink
-              href={`/${props.path}/[slug]`}
-              as={`/${props.path}/${page.slug}`}
+              href={`/[slug]`}
+              as={`/${page.slug}`}
             >
               <NavItem>{page.title}</NavItem>
             </ActiveLink>

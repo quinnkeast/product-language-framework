@@ -13,10 +13,6 @@ const Container = styled.div`
 const Layout = (props) => {
   return (
     <Container>
-      <Head>
-        <title>{props.title}</title>
-        <link rel="stylesheet" href="https://use.typekit.net/vkt8aqg.css" />
-      </Head>
       <Header 
         siteTitle={props.siteTitle}
         siteDescription={props.siteDescription}

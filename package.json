@@ -1,5 +1,5 @@
 {
-  "name": "marleyspoon-design-system",
+  "name": "content-language-framework",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,21 +9,21 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Quinn Keast",
+  "license": "MIT",
   "dependencies": {
-    "@reach/menu-button": "^0.8.5",
+    "@reach/menu-button": "^0.10.3",
     "gray-matter": "^4.0.2",
     "htmr": "^0.8.8",
-    "next": "^9.2.1",
+    "next": "^9.4.4",
     "normalize.css": "^8.0.1",
-    "raw-loader": "^4.0.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "raw-loader": "^4.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-markdown": "^4.3.1",
     "react-sticky": "^6.0.3",
     "react-toggle": "^4.1.1",
-    "styled-components": "^5.0.1",
+    "styled-components": "^5.1.1",
     "styled-theming": "^2.2.0"
   }
 }

@@ -1,6 +1,6 @@
 html {
-  font-family: sofia-pro, arial, sans-serif;
-  font-weight: 300;
+  font-family: Helvetica, arial, sans-serif;
+  font-weight: normal;
   font-style: normal;
   font-size: 17px;
   -webkit-font-smoothing: antialiased;
@@ -44,7 +44,7 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family:  sofia-pro, arial, sans-serif;
+  font-family:  Helvetica, arial, sans-serif;
   margin-top: 1.25rem;
   margin-bottom: 0;
   line-height: 1.5rem;

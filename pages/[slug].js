@@ -1,7 +1,7 @@
 import { Component } from 'react';
 import matter from 'gray-matter';
-import Layout from '../../components/Layout';
-import Content from '../../components/Content';
+import Layout from '../components/Layout';
+import Content from '../components/Content';
 
 const PageTemplate = props => (
   <Layout>
@@ -13,8 +13,8 @@ export default PageTemplate;
 
 PageTemplate.getInitialProps = async (context) => {
   const { slug } = context.query;
-  const config = await import(`../../data/config.json`);
-  const content = await import(`../../docs/content/${slug}.md`);
+  const config = await import(`../data/config.json`);
+  const content = await import(`../docs/${slug}.md`);
   const pageData = matter(content.default);
 
   // Get pages from docs folder
@@ -39,7 +39,7 @@ PageTemplate.getInitialProps = async (context) => {
        };
     });
     return data;
-  })(require.context('../../docs/content', true, /\.md$/));
+  })(require.context('../docs/', true, /\.md$/));
 
   return {
     siteTitle: config.title,

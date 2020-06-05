@@ -1,5 +1,5 @@
 ---
-title: Goals & principles
+title: Overview
 author: Quinn Keast
 date: 2020-02-17
 order: 01

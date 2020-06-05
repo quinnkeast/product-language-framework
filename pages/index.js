@@ -28,14 +28,6 @@ export default function Index(props) {
   return (
     <Layout pages={props.allPages}>
       <div>
-        <Heading>Pistachio</Heading>
-        <p>Our design system helps us work together to build a delightful user experience across all of Marley Spoons’s platforms.</p>
-        <Alert>
-          <p>This guide is a very, very early stage work in progress. The UX team is working on it “on the side” to support our ongoing work.</p>
-          <p>Questions? Please ping <strong>@quinnkeast</strong> on Slack!</p>
-        </Alert>
-      </div>
-      <div>
         <h2>Guides</h2>
         <p>Check out our guides to help understand how the design system works and how to design and write for Marley Spoon’s platforms using Pistachio.</p>
         <ul>
