@@ -1,6 +1,6 @@
 html {
-  font-family: Helvetica, arial, sans-serif;
-  font-weight: normal;
+  font-family: Libre Franklin, Helvetica, arial, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 17px;
   -webkit-font-smoothing: antialiased;
@@ -44,19 +44,19 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family:  Helvetica, arial, sans-serif;
+  font-family:  Libre Franklin, Helvetica, arial, sans-serif;
   margin-top: 1.25rem;
   margin-bottom: 0;
   line-height: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   line-height: 2.75rem;
   margin-top: 3rem;
 }
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   line-height: 2rem;
   margin-top: 2.5rem;
 }

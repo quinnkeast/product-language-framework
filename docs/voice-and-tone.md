@@ -13,17 +13,15 @@ One of the ways we create a consistent and familiar experience for our users is 
 
 What’s the difference between voice and tone? Think of it this way: our **voice** is a personification of who we are. We always have the same voice. But, our **tone** changes to match our context and situation.
 
-For example, when our customers are cooking their first meal, they might be feeling excited, successful, and maybe a bit nervous. We can cheer them on and congratulate them when they’re finished cooking.
+For example, when our users are asked to provide their first book suggestion for someone looking for something to read, they might be feeling excited and maybe a bit daunted. We can cheer them on and thank them when they send a suggestion.
 
-But when our customers experience something going wrong, such as an ingredient missing from their box, they’re probably feeling annoyed and a bit stressed out. We can recognize what went wrong, apologize, and tell them what will happen next.
+But when our users experience something going poorly, such as well-thought suggestion failing to send, they’re probably feeling annoyed and uncertain. We can recognize what went wrong, apologize, and tell them what will happen next.
 
 ## Voice guidelines
 
-Each of our brands has a distinct voice and character. But since we use Pistachio, the foundation for all of our digital platforms, we have a **shared voice** that’s the basis of our writing for all of our digital platforms. We write first in this voice and then build off of it to infuse each brand’s unique personality.
+Our brand has a distinct voice and character. This voice and character is the basis of our writing for all of our digital platforms.
 
 When we write in our shared voice, we are always:
-
-``TODO: This section is in an early draft form.``
 
 ### Optimistic
 
@@ -41,35 +39,6 @@ When we write in our shared voice, we are always:
 - Communicate clearly and honestly, even when we make a mistake
 - Be direct but compassionate
 - Let our love for cooking and food shine through
-
-When we build off of our shared voice for **Marley Spoon**, we are also:
-
-### Confident
-
-- Speak with confidence
-- Be specific when explaining
-    
-### Interested
-
-- Be empathetic
-    
-### Interesting
-
-- Connect our love for food to the richness of life
-
-When we build off of our shared voice for **Dinnerly**, we are also:
-
-### Quirky
-
-- Our sense of humour doesn’t take itself too seriously. We’re obviously punny and straight-faced, but never sarcastic or cynical.
-    
-### Playful
-
-- ``TODO``
-    
-### Down to earth
-
-- Connect our love for food to the richness of life
     
 ## Using tone of voice
 
@@ -82,18 +51,18 @@ We can express any given message in wildly different ways. To find the right ton
 3. Respectful vs. irreverent.
 4. Enthusiastic vs. matter-of-fact.
 
-Vary these dimensions to meet the user’s emotional and situational context at a given moment in time.
+Vary these dimensions to meet the user’s emotional and situational context at a given moment in time. Note also that our brand voice has a “range” along these dimensions, and we should aim to stay within that range to keep our voice and character consistent.
 
 ### Positive situations
 
 ```usage
 <Usage type="yes">
-### Yes
+### Do
 - Be encouraging
 - Express authentic pride
 </Usage>
 <Usage type="no">
-### No
+### Don’t
 - Don’t take credit for their success
 - Don’t assume it was easy
 </Usage>
@@ -103,11 +72,11 @@ Vary these dimensions to meet the user’s emotional and situational context at 
 
 ```usage
 <Usage type="yes">
-### Yes
+### Do
 - Express confidence and connect value
 </Usage>
 <Usage type="no">
-### No
+### Don’t
 - Don’t create uncertainty or tell people “what to do”
 </Usage>
 ```
@@ -116,15 +85,13 @@ Vary these dimensions to meet the user’s emotional and situational context at 
 
 ```usage
 <Usage type="yes">
-### Yes
+### Do
 - Be honest and direct about problems and provide next steps
 - Use conversational but straightforward language
 </Usage>
 <Usage type="no">
-### No
+### Don’t
 - Don’t minimize the problem
 - Don’t use negative or technical words
 </Usage>
 ```
-
-When we write for our distinct brand voices, each brand has its own “range” along these dimensions of tone of voice. For example, Dinnerly can take a more enthusiastic tone of voice than Marley Spoon for a message for the same positive situation.

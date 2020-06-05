@@ -11,14 +11,14 @@ Our goals for this framework are to:
 
 - **Create consistency** across our platforms to make our experience usable, predictable, and delightful.
 - **Empower our team** and make it easy for anyone working on our digital platforms to write clear, effective, and useful content.
+- **Create positive change** in the language we use to create compassionate, inclusive, and respective products.
 
+## Fictional product: Foreword
 
-## Writing for Pistachio
+This product language framework is built to support a fictional product: **Foreword**, a platform for people to ask for and share recommendations for books to read, based on shared reading history. All of the examples used in this framework use this fictional product as a basis.
 
-The Pistachio design system introduces an extra level of complexity in copywriting for our digital platforms.
+## How to adapt this framework for your product
 
-Here are a few key mindsets for writing for our digital platforms:
+To make this product language framework best support your own product, go through the examples and update them to reflect real examples from your own product. If you find opportunities to improve your own product’s language while coming up with examples, go for it! It would be easy to use this framework as a starting point for a complete content audit.
 
-- **Write for Pistachio first.** Treat it like a “base layer” that you’ll build on to capture and convey a distinct personality for each of our brands.
-- **Use the same words to describe nouns and verbs.** By using the same words, we’ll create a consistent and usable experience for all of our brands.
-- **Use voice and tone to reflect each brand’s personality.** For more, see the Voice & Tone section.
+Remember, this framework is a starting point. Change it to suit your needs!

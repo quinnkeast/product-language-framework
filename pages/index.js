@@ -1,61 +1,12 @@
-import matter from 'gray-matter';
-import Layout from '../components/Layout';
-import Link from 'next/link';
-import styled from 'styled-components';
-import { colors, breakpoints, spacing } from '../styles/tokens';
+import React, { useEffect } from 'react';
+import Router from 'next/router';
 
-const Alert = styled.div`
-  background-color: #fff3cd;
-  padding: 1.25rem 1rem 1rem;
-  margin-top: 1.5rem;
-  border-radius: 6px;
-
-  p {
-    margin: 0;
-    color: #856404;
-  }
-`;
-
-const Heading = styled.h1`
-  margin-top: 0;
-
-  @media (min-width: ${breakpoints.tabletPortrait}) {
-    margin-top: ${spacing.l};  
-  }              
-`;
-
-export default function Index(props) {
-  return (
-    <Layout pages={props.allPages}>
-      <div>
-        <h2>Guides</h2>
-        <p>Check out our guides to help understand how the design system works and how to design and write for Marley Spoon’s platforms using Pistachio.</p>
-        <ul>
-          <li>
-            <Link href='/foundations/[slug]' as='/foundations/what-is-pistachio' passHref>
-              <a>What is Pistachio?</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/foundations/[slug]' as='/foundations/experience-principles' passHref>
-              <a>Experience principles</a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/content/[slug]' as='/content/goals' passHref>
-              <a>Writing content</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </Layout>
-  );
-}
-
-Index.getInitialProps = async () => {
-  const configData = await import(`../data/config.json`);
-  
-  return {
-    ...configData.default,
-  }
+export default function Index() {
+  useEffect(() => {
+    const {pathname} = Router;
+    if(pathname === '/') {
+      Router.push('/overview');
+    }
+  }, []);
+  return (null);
 }

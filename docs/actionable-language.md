@@ -111,7 +111,7 @@ Give users confidence about what they should do.
 ```
 
 ## Buttons
-Buttons are one of the most important elements in our digital platforms. Most conversion actions are the direct result of the user clicking a button, and the labels used in buttons are at the point when a decision becomes an action.
+Buttons are one of the most important elements in our digital platforms. Most actions and conversions are the direct result of the user clicking a button, and the labels used in buttons help users understand what actions are possible and are at the point when a decision becomes an action.
 
 Always write button labels in sentence case.
 
@@ -163,7 +163,7 @@ When buttons support conversion goals, the formula is `value` + `relevance`.
 
 Instead of writing about what the user does (the action), write about what the user gets (the value). Then, make it more immediately relevant to the specific conversion context.
 
-The length of a button label isn’t usually a problem, as long as they capture the relevant value for the user.
+The length of a button label when the button’s purpose is conversion isn’t usually a problem.
 
 ```usage
 <Usage type="yes">
@@ -516,11 +516,3 @@ This is particularly important for helper messages on input fields.
 - Password must be between 8–12 characters.
 </Usage>
 ```
-
-## Push notifications
-
-- ``TODO``
-
-## Email notifications
-
-- ``TODO``

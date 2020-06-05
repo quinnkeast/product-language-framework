@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import styled from 'styled-components';
 
 const FooterContainer = styled.div`
@@ -21,22 +20,10 @@ const FooterItem = styled.a`
   }
 `;
 
-const Count = styled.span`
-  background-color: #e5efff;
-  color: #222;
-  line-height: 1;
-  display: inline;
-  border-radius: 12px;
-  padding: 4px 8px 2px;
-`;
-
 const Footer = () => (
   <FooterContainer>
     <nav role='navigation'>
-      <Link href='/whats-new' passHref>
-        <FooterItem>What’s new? <Count>v0.0.1</Count></FooterItem>
-      </Link>
-      <FooterItem href="mailto:quinn.keast@marleyspoon.com">Get help or give feedback</FooterItem>
+      <FooterItem href="https://twitter.com/quinnkeast">Created by Quinn Keast</FooterItem>
     </nav>
   </FooterContainer>
 );

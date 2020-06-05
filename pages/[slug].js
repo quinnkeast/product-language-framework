@@ -2,9 +2,13 @@ import { Component } from 'react';
 import matter from 'gray-matter';
 import Layout from '../components/Layout';
 import Content from '../components/Content';
+import Head from 'next/head';
 
 const PageTemplate = props => (
   <Layout>
+    <Head>
+      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    </Head>
     <Content {...props} path='content' key={props.slug} />
   </Layout>
 );

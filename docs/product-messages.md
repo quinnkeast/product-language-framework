@@ -7,7 +7,7 @@ order: 05
 
 From time to time, we need to share messages with our users through our app and digital platforms about a variety of things. Our challenge is that not all messages are equal, and we need to communicate with our users in the right way at the right time for any given message.
 
-Since “the right way at the right time“ is somewhat subjective, we’ve created a framework to make it easy to consistently choose the right way to share messages, and to make it simple to plan in-app communications for larger ongoing initiatives.
+Since “the right way at the right time” is somewhat subjective, we’ve created a framework to make it easy to consistently choose the right way to share messages, and to make it simple to plan in-app communications for larger ongoing initiatives.
 
 ## Types of messages
 
