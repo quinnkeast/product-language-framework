@@ -167,13 +167,14 @@ The order of day and month should match the user’s locale.
 ```usage
 <Usage type="yes">
 ### Yes
-- **USA:** Thursday, April 16
-- **USA:** April 16
-- **USA:** Apr 16
-
-- **Germany:** Thursday, 16 April
-- **Germany:** 16 April
-- **Germany:** 16 Apr
+- **USA:**  
+Thursday, April 16  
+April 16  
+Apr 16
+- **Germany:**  
+Thursday, 16 April  
+16 April  
+16 Apr
 </Usage>
 ```
 
@@ -598,22 +599,22 @@ Do not use the term “edge cases” to describe users living with disabilities.
 
 ### Gender and sexuality
 
-Don’t call groups of people “guys.” Don’t call women “girls.” `(Quoting from Mailchimp)`
+Don’t call groups of people “guys.” Don’t call women “girls.” 
 
 Avoid gendered terms.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- Deliveryperson
+- Artisan
 </Usage>
 <Usage type="no">
 ### No
-- Deliveryman
+- Craftsman
 </Usage>
 ```
 
-It’s okay to use “they” as a singular pronoun.
+It’s okay to use “they” as a singular pronoun. If there’s no inherent purpose to specifying a gender, default to “they.”
 
 ### Hearing
 
