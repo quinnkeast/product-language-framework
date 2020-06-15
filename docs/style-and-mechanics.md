@@ -24,11 +24,11 @@ Avoid abbreviations and acronyms when possible.
 
 ## Adverbs and adjectives
 
-Try to avoid adjectives and adverbs. Using adjectives and adverbs (for example, “easy” recipe) shapes perception and sets expectations, and can inadvertently lead to a negative emotional experience for our customers. 
+Try to avoid adjectives and adverbs. Using adjectives and adverbs (for example, “easy” read) shapes perception and sets expectations, and can inadvertently lead to a negative emotional experience for our users. 
 
-If someone is new to cooking and feels nervous about their abilities, then describing a recipe as “easy” can help them choose that recipe. But if they have trouble cooking it, they may feel bad because the recipe was supposed to be “easy,” and they still had trouble.
+If someone is a newer reader, then describing a book as “easy” might help them choose to read it. But if it takes them a long time to read it, they may feel bad because the book was supposed to be “easy,” and it still took them a while.
 
-Instead, look for opportunities to capture the same meaning through other forms. What makes an “easy” recipe easy relative to other recipes? Can that be used as a scale of relative difficulty?
+Instead, look for opportunities to capture the same meaning through other forms. What makes an “easy” book easy relative to other books? Can that be used as a scale of relative difficulty?
 
 ## Active voice vs. passive voice
 
@@ -37,11 +37,11 @@ Use active voice and avoid passive voice. In active voice, the subject of the se
 ```usage
 <Usage type="yes">
 ### Yes
-- Added recipe to box.
+- Added book to list.
 </Usage>
 <Usage type="no">
 ### No
-- The recipe was added to box.
+- The book was added to the list.
 </Usage>
 ```
 
@@ -50,11 +50,11 @@ Use passive voice when you don’t want to assign responsibility for an action. 
 ```usage
 <Usage type="yes">
 ### Yes
-- Delivery address was incorrect.
+- Email address was incorrect.
 </Usage>
 <Usage type="no">
 ### No
-- Wrong delivery address provided.
+- Wrong email address provided.
 </Usage>
 ```
 
@@ -65,11 +65,11 @@ Use present tense to describe the result of actions.
 ```usage
 <Usage type="yes">
 ### Yes
-- Recipe added
+- Book added
 </Usage>
 <Usage type="no">
 ### No
-- Recipe has been added
+- Book has been added
 </Usage>
 ```
 
@@ -77,9 +77,9 @@ Use present tense to describe the result of actions.
 
 We use different forms of capitalization depending on the context.
 
-For example, use title case for recipe names and weekly status messages, and use sentence case for recipe steps. If you’re not sure which capitalization to use, check the design system for existing conventions.
+For example, use title case for book names, and use sentence case for book descriptions. (If you’re not sure which capitalization to use, check the design system for existing conventions.)
 
-All-caps should be used sparingly and only for specific purposes. Never use all-caps within a sentence. 
+All-caps should be used sparingly and only for specific purposes (all-caps copy is less accessible and harder to read). Never use all-caps within a sentence.
 
 ## Contractions
 
@@ -94,12 +94,12 @@ Our voice is conversational. When we’re talking, we connect words with article
 ```usage
 <Usage type="yes">
 ### Yes
-- Choose a recipe
+- Choose a book
 - Save your changes
 </Usage>
 <Usage type="no">
 ### No
-- Choose recipe
+- Choose book
 - Save changes
 </Usage>
 ```
@@ -111,11 +111,11 @@ Avoid any instructions or language that requires the user to see the layout or d
 ```usage
 <Usage type="yes">
 ### Yes
-- Choose a new delivery time.
+- Choose a new book.
 </Usage>
 <Usage type="no">
 ### No
-- Choose a new delivery time at the bottom right of this page.
+- Choose a new book at the bottom right of this page.
 </Usage>
 ```
 
@@ -126,15 +126,15 @@ Use the numeral when numbers appear in copy. This includes ordinals (numbers tha
 ```usage
 <Usage type="yes">
 ### Yes
-- You have 3 meals in your box
-- 2 days left to make changes
-- This is your 3rd box
+- You have 3 new recommendations
+- 2 days left to share a recommendation
+- This is your 3rd recommendation
 </Usage>
 <Usage type="no">
 ### No
-- You have three meals in your box
-- Two days left to make changes
-- This is your third box
+- You have three new recommendations
+- Two days left to share a recommendation
+- This is your third recommendation
 </Usage>
 ```
 
@@ -148,7 +148,7 @@ When writing in English, numbers over 3 digits get commas.
 </Usage>
 ```
 
-When writing in German, Swedish, and Dutch, numbers over 3 digits get a period.
+When writing in languages like German, Swedish, and Dutch, numbers over 3 digits get a period.
 
 ```usage
 <Usage type="yes">
@@ -170,6 +170,7 @@ The order of day and month should match the user’s locale.
 - **USA:** Thursday, April 16
 - **USA:** April 16
 - **USA:** Apr 16
+
 - **Germany:** Thursday, 16 April
 - **Germany:** 16 April
 - **Germany:** 16 Apr
@@ -228,7 +229,7 @@ Use an en dash (`–`) to indicate a range or span of numbers. Do not use spaces
 ```usage
 <Usage type="yes">
 ### Yes
-- Cook for 10–20 minutes
+- 10–20 minute read
 </Usage>
 ```
 
@@ -236,7 +237,7 @@ An en dash is slightly wider than a hyphen (`-`) but narrower than an em dash (`
 
 ### Money
 
-When writing about US or AU currency, use the dollar sign ($) before the amount. Always include a decimal and number of cents. Do not insert a space between the dollar sign and the number.
+When writing about US, CA, or AU currency, use the dollar sign ($) before the amount. Always include a decimal and number of cents. Do not insert a space between the dollar sign and the number.
 
 ```usage
 <Usage type="yes">
@@ -263,9 +264,9 @@ Use dashes without spaces between numbers. Don’t use a country code.
 ```usage
 <Usage type="yes">
 ### Yes
-- 866-228-4513
-- 030-208-480-510
-- 02-6145-2910
+- 123-456-7890
+- 012-345-678-910
+- 02-345-6789
 </Usage>
 ```
 
@@ -315,8 +316,8 @@ When referring to an amount of time, use numerals and the full word, with a spac
 ```usage
 <Usage type="yes">
 ### Yes
-- Cook for 20 minutes.
-- Steam for 30 seconds.
+- Sent 20 minutes ago
+- Received 30 seconds ago
 </Usage>
 ```
 
@@ -327,11 +328,11 @@ In all cases, include a space between the number and the unit of measurement.
 ```usage
 <Usage type="yes">
 ### Yes
-- 100 g
+- 200 g
 </Usage>
 <Usage type="no">
 ### No
-- 100g
+- 200g
 </Usage>
 ```
 
@@ -346,9 +347,9 @@ Watch out for dumb apostrophes (`'`). These are a relic of typewriters, and can 
 ```usage
 <Usage type="yes">
 ### Yes
-- This recipe’s best cooked within 3 days.
-- This recipe is Martha’s favourite.
-- Chris’s favourite recipe
+- This recommendation’s new for you
+- This book is Jen’s favourite
+- Chris’s favourite book
 </Usage>
 ```
 
@@ -359,9 +360,11 @@ Use a colon to offset a list.
 ```usage
 <Usage type="yes">
 ### Yes
-- Gather three things before starting: pots, pans, and knives.
+- This books is known for three things: aliens, adventure, and bad poetry.
+
 When a list begins with an interface label, capitalize the first word of the list.
-- Allergens: Dairy, peanuts, and anchovies.
+
+- Genres: Fantasy, science fiction, and humour.
 </Usage>
 ```
 
@@ -372,11 +375,11 @@ Use the Oxford comma when writing a list.
 ```usage
 <Usage type="yes">
 ### Yes
-- Allergens include dairy, peanuts, and anchovies.
+- Common tropes include the big bad, Mordor, and spy speak.
 </Usage>
 <Usage type="no">
 ### No
-- Allergens include dairy, peanuts and anchovies.
+- Common tropes include the big bad, Mordor and spy speak.
 </Usage>
 ```
 
@@ -387,7 +390,7 @@ Use a hyphen (`-`) without spaces before and after to link words into a single p
 ```usage
 <Usage type="yes">
 ### Yes
-- First-time cook?
+- First-time reader?
 </Usage>
 ```
 
@@ -396,7 +399,7 @@ Use an en dash (`–`) to indicate a [range or span](#ranges-and-spans), without
 ```usage
 <Usage type="yes">
 ### Yes
-- Cook for 10–20 minutes
+- 2–6 minute read
 </Usage>
 ```
 
@@ -405,7 +408,7 @@ Use an em (`—`) dash without spaces to separate clauses in paragraph copy.
 ```usage
 <Usage type="yes">
 ### Yes
-- Our new smoothies—you’ll be delighted to hear—are perfect for gluten-free diets.
+- This new series—a first in science fiction—is perfect for readers looking for bad poetry.
 </Usage>
 ```
 
@@ -418,11 +421,11 @@ When ellipses are used to clip a line of copy, clip after at least 2 characters.
 ```usage
 <Usage type="yes">
 ### Yes
-- Free-Range Heritage Chicken With Sc…
+- Harry Potter and the Go…
 </Usage>
 <Usage type="no">
 ### No
-- Free-Range Heritage Chicken With S…
+- Harry Potter and the G…
 </Usage>
 ```
 
@@ -468,26 +471,26 @@ When written in paragraph copy, write out country, state, and province names on 
 ```usage
 <Usage type="yes">
 ### Yes
-- Now available in Sweden.
+- Now available in Winnipeg.
 </Usage>
 <Usage type="no">
 ### No
-- Now available in SWE.
+- Now available in WPG.
 </Usage>
 ```
 
-## Positive vs negative
+## Positive vs. negative
 
 Use positive language rather than negative language. Positives are easier to read and process than negatives. One way to detect negative language is to look for words like “can’t,” “don’t,” etc.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- Update your payment method to get your box.
+- Update your payment method to access your account.
 </Usage>
 <Usage type="no">
 ### No
-- If you don’t update your payment method, you won’t get your box.
+- If you don’t update your payment method, you won’t be able to access your account.
 </Usage>
 ```
 
@@ -513,11 +516,11 @@ A common error when writing questions is not constructing the sentence as a ques
 ```usage
 <Usage type="yes">
 ### Yes
-- Why should meat and vegetables be chopped on separate cooking boards?
+- Why does “Dune” deserve a re-read?
 </Usage>
 <Usage type="no">
 ### No
-- Why meat and vegetables should be chopped on separate cooking boards?  
+- Why “Dune” deserves a re-read?
 </Usage>
 ```
 
@@ -530,9 +533,8 @@ In our digital products, use our trade name for each market:
 ```usage
 <Usage type="yes">
 ### Yes
-- **EU:** Marley Spoon
-- **US:** Martha & Marley Spoon, Dinnerly
-- **AU:** Marley Spoon, Dinnerly
+- **CA & USA:** Foreword
+- **EU:** Forworded
 </Usage>
 ```
 
@@ -541,12 +543,11 @@ Always title case our name. Don’t abbreviate our name.
 ```usage
 <Usage type="yes">
 ### Yes
-- Martha & Marley Spoon
+- Foreword
 </Usage>
 <Usage type="no">
 ### No
-- Martha & Marley spoon
-- MMS  
+- FW
 </Usage>
 ```
 
@@ -556,14 +557,14 @@ Don’t capitalize descriptive product or feature names.
 <Usage type="yes">
 ### Yes
 - our mobile app
-- taste profile
-- your box
+- reading recommendations
+- your list
 </Usage>
 <Usage type="no">
 ### No
 - our Mobile App
-- Taste Profile
-- your Box
+- Reading Recommendations
+- your Lox
 </Usage>
 ```
 
@@ -612,8 +613,6 @@ Avoid gendered terms.
 </Usage>
 ```
 
-``TODO How does the adapt to other languages like German?``
-
 It’s okay to use “they” as a singular pronoun.
 
 ### Hearing
@@ -633,11 +632,11 @@ Some words to watch out for:
 ```usage
 <Usage type="yes">
 ### Yes
-- After you’ve made your choices
+- After you’ve made your picks
 </Usage>
 <Usage type="no">
 ### No
-- Once you’ve made your choice
+- Once you’ve made your picks
 </Usage>
 ```
 
@@ -646,11 +645,11 @@ Some words to watch out for:
 ```usage
 <Usage type="yes">
 ### Yes
-- Pick the right recipe
+- Pick the book you like most
 </Usage>
 <Usage type="no">
 ### No
-- Pick the recipe you like most
+- Pick the right book
 </Usage>
 ```
 
@@ -659,11 +658,11 @@ Some words to watch out for:
 ```usage
 <Usage type="yes">
 ### Yes
-- Because you have a referral already, you can invite a friend to get a free box
+- Because you have a referral already, you can invite a friend and get a free month
 </Usage>
 <Usage type="no">
 ### No
-- Since you already have a referral, you can invite a friend to get a free box
+- Since you already have a referral, you can invite a friend and get a free month
 </Usage>
 ```
 
@@ -672,25 +671,27 @@ Some words to watch out for:
 ```usage
 <Usage type="yes">
 ### Yes
-- Referrals can be sent from any Marley Spoon account.
+- Referrals can be sent from any Foreword account.
 </Usage>
 <Usage type="no">
 ### No
-- A Marley Spoon account is required to send referrals. _(This could imply that both the sender and receiver have to have a Marley Spoon account to send a referral.)_
+- A Foreword account is required to send referrals. _(This could imply that both the sender and receiver have to have a Foreword account to send a referral.)_
 </Usage>
 ```
 
 ## Avoid idioms
 
-In most languages, idioms are commonly-known phrases packed with meaning. However, idioms don’t often translate into other languages. They can also create confusion for translators that have English as an additional language.
+In most languages, idioms are commonly-known phrases packed with meaning. However, idioms don’t often translate into other languages. They can also create confusion for translators that have English as an additional language. It’s better to avoid using idioms at all.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- `TODO`
+- Let’s get started
+- This information might change
 </Usage>
 <Usage type="no">
 ### No
-- `TODO`
+- Let’s get crackin’
+- Take this with a grain of salt
 </Usage>
 ```

@@ -25,5 +25,9 @@
     "react-toggle": "^4.1.1",
     "styled-components": "^5.1.1",
     "styled-theming": "^2.2.0"
+  },
+  "devDependencies": {
+    "postcss-preset-env": "^6.7.0",
+    "tailwindcss": "^1.4.6"
   }
 }

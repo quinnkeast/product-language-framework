@@ -18,10 +18,6 @@ const GridContainer = styled.div`
   }
 `;
 
-const PageTitle = styled.h1`
-  margin-top: 0;
-`;
-
 const Article = styled.article`  
 `;
 
@@ -72,16 +68,17 @@ class Content extends Component {
     const { sectionHeadings } = this.state;
     
     return (
-      <GridContainer>
+      <div className='grid grid-cols-1 md:grid-cols-7 md:gap-12'>
         <Sidebar 
+          className='col-span-2'
           path={path}
           pages={pages}
           sections={sectionHeadings}
           currentPage={slug}
           currentPageTitle={data.title}
         />
-        <Article>
-          <PageTitle>{data.title}</PageTitle>
+        <article className='md:col-span-5 md:pt-8'>
+          <h1>{data.title}</h1>
           <ReactMarkdown 
             source={content}
             escapeHtml={false}
@@ -99,8 +96,8 @@ class Content extends Component {
               }
             }}
           />
-        </Article>
-      </GridContainer>
+        </article>
+      </div>
     );
   }
 }

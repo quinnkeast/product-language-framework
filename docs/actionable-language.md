@@ -11,9 +11,9 @@ The content in our digital products and messages shape how our users perceive an
 
 Headings and subheadings in our interfaces have three goals:
 
-- Help users identify their place
-- Help users understand how things are organized
-- Help users predict what actions they can take
+- Help users identify their **place**.
+- Help users understand how things are **organized**.
+- Help users predict what **actions** they can take.
 
 Some specific guidelines for writing headings and subheadings:
 
@@ -24,11 +24,11 @@ Some specific guidelines for writing headings and subheadings:
 ```usage
 <Usage type="yes">
 ### Yes
-- `TO DO`
+- Your next read
 </Usage>
 <Usage type="no">
 ### No
-- `TO DO`
+- Your Next Read.
 </Usage>
 ```
 
@@ -38,11 +38,11 @@ When we’re talking, we connect words with articles like “the,” “for,” 
 ```usage
 <Usage type="yes">
 ### Yes
-- `TO DO`
+- Read these next
 </Usage>
 <Usage type="no">
 ### No
-- `TO DO`
+- Read next
 </Usage>
 ```
 
@@ -52,11 +52,11 @@ For labels and microcopy, prioritize short and actionable content by removing ar
 ```usage
 <Usage type="yes">
 ### Yes
-- Add recipe
+- Add book
 </Usage>
 <Usage type="no">
 ### No
-- Add this recipe
+- Add this book
 </Usage>
 ```
 
@@ -72,11 +72,11 @@ Start sentences with strong verbs that help users understand what they will do. 
 ```usage
 <Usage type="yes">
 ### Yes
-- Add a recipe to your box.
+- Add a book to your favourites. 
 </Usage>
 <Usage type="no">
 ### No
-- Recipes appear in your box after you add them.
+- Books appear in your favourites after you add them.
 </Usage>
 ```
 
@@ -87,11 +87,11 @@ Look for combinations of verbs and nouns that can be replaced by a single verb.
 ```usage
 <Usage type="yes">
 ### Yes
-- We will **refund** your order.
+- We will **refund** your subscription.
 </Usage>
 <Usage type="no">
 ### No
-- We will **provide a refund** for your order.
+- We will **provide a refund** for your subscription.
 </Usage>
 ```
 
@@ -102,11 +102,11 @@ Give users confidence about what they should do.
 ```usage
 <Usage type="yes">
 ### Yes
-- Update your taste profile and get the recipes you’ll love most.
+- Update your favourite list and get tailored recommendations for your next read.
 </Usage>
 <Usage type="no">
 ### No
-- Update your taste profile and you can get the recipes you’ll love most.
+- Update your favourite list and you can get the recommendations for books you’ll love most.
 </Usage>
 ```
 
@@ -118,11 +118,11 @@ Always write button labels in sentence case.
 ```usage
 <Usage type="yes">
 ### Yes
-- Skip this box
+- Send suggestion
 </Usage>
 <Usage type="no">
 ### No
-- Skip This Box
+- Send Suggestion
 </Usage>
 ```
 
@@ -133,13 +133,13 @@ When buttons enable user actions, the formula is `verb` + `noun`.
 ```usage
 <Usage type="yes">
 ### Yes
-- Add recipe
-- Explore fruit box
+- Add book
+- Explore recommendations
 </Usage>
 <Usage type="no">
 ### No
 - Add
-- Manage delivery
+- Explore
 </Usage>
 ```
 
@@ -159,6 +159,7 @@ When buttons are used as calls to action in confirmations, the formula `verb` + 
 ```
 
 ### Buttons for conversion
+
 When buttons support conversion goals, the formula is `value` + `relevance`.
 
 Instead of writing about what the user does (the action), write about what the user gets (the value). Then, make it more immediately relevant to the specific conversion context.
@@ -168,19 +169,35 @@ The length of a button label when the button’s purpose is conversion isn’t u
 ```usage
 <Usage type="yes">
 ### Yes
-- Send a friend a free box
-- Get fresh fruit in your next box
+- Send a friend a free book
 </Usage>
 <Usage type="no">
 ### No
-- Send referral
-- Add fruit box to your next box
+- Send gift
 </Usage>
 ```
 
-Further reading:
+**Further reading:**
 
 - [How to write a call to action that converts](https://unbounce.com/conversion-rate-optimization/how-to-write-a-call-to-action-that-converts-with-case-sudies)
+
+### Buttons as microcopy
+
+Buttons can also be an opportunity to use microcopy to create a more positive experience (particularly in negative situations) by making the interface more human. If it’s appropriate, break the rules and explore ways to match the user’s feelings without assigning emotion.
+
+```usage
+<Usage type="yes">
+### Yes
+- I tried, I’m stuck, I need help
+</Usage>
+<Usage type="no">
+### Instead of
+- Get help
+</Usage>
+```
+
+**Further reading:**
+- [Jason Fried on Twitter](https://twitter.com/jasonfried/status/1271886889159622659/photo/1)
 
 ## Links
 
@@ -204,11 +221,11 @@ Links in full sentences shouldn’t link the whole sentence, but instead only th
 ```usage
 <Usage type="yes">
 ### Yes
-- Set up your [taste profile](#).
+- Create your [favourites list](#).
 </Usage>
 <Usage type="no">
 ### No
-- [Set up your taste profile](#).
+- [Create your favourites list](#).
 </Usage>
 ```
 
@@ -219,12 +236,12 @@ Links that aren’t in full sentences should be treated similarly to buttons, an
 ```usage
 <Usage type="yes">
 ### Yes
-- [Remove from box](#)
+- [Remove from list](#)
 - [Don’t have an account?](#)
 </Usage>
 <Usage type="no">
 ### No
-- [Remove from box.](#).
+- [Remove from list.](#).
 - [Don’t have an account](#)
 </Usage>
 ```
@@ -241,7 +258,7 @@ Some specific things to keep in mind when writing error messages:
 
 ### Write without rigidity
 
-Keep it conversational. Adjusting the [tone of voice] to be more formal rather than casual is appropriate, but use restraint.
+Keep it conversational. Adjusting the tone of voice to be more formal rather than casual is appropriate, but use restraint.
 
 ```usage
 <Usage type="yes">
@@ -307,7 +324,7 @@ Confirmation message **body content** should:
 </Usage>
 <Usage type="no">
 ### No
-- If you discard changes, your box will remain unchanged.
+- If you discard changes, your list will remain unchanged.
 </Usage>
 ```
 
@@ -372,16 +389,16 @@ Imagine if we let people take and save a photo of a finished meal. When the phot
 
 Use success messages to reinforce the value that our users get from taking a given action.
 
-If a user adds a fruit box to their weekly box, treat the success message as an opportunity to reinforce that choice.
+If a user adds a book to their favourites list, treat the success message as an opportunity to reinforce that choice.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- Perfect! Your box will be bursting with fresh fruits every week!
+- Added to your favourites! Now others will be able to give you even better recommendations.
 </Usage>
 <Usage type="no">
 ### No
-- Fruit box added to your box.
+- Book added to your favourites list.
 </Usage>
 ```
 
@@ -397,31 +414,16 @@ Some specific guidelines to keep in mind when writing content for empty states:
 
 ### Remember, empty states aren’t a bad thing
 
-Avoid using negative words or phrases. Empty states are transitional and reveal potential.
+Avoid using negative words or phrases. Empty states are transitional and reveal potential. Say what’s supposed to be here, or what can be done here, and how it will help them.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- `TODO`
+- Your favourite books will appear here!
 </Usage>
 <Usage type="no">
 ### No
-- `TODO`
-</Usage>
-```
-
-### Say what’s supposed to be here, or what can be done here
-
-Use messages to describe what the user can see or do here, and how it will help them.
-
-```usage
-<Usage type="yes">
-### Yes
-- `TODO`
-</Usage>
-<Usage type="no">
-### No
-- `TODO`
+- Oh no, there’re no books in your favourites list
 </Usage>
 ```
 
@@ -432,11 +434,11 @@ If relevant, tell users exactly how to start using a feature and provide an acti
 ```usage
 <Usage type="yes">
 ### Yes
-- `TODO`
+- New recommendations from other users will appear here. [Ask for your first recommendation!](#)
 </Usage>
 <Usage type="no">
 ### No
-- `TODO`
+- No recommendations
 </Usage>
 ```
 
@@ -466,7 +468,7 @@ When we really want users to complete a field, we can use placeholders to prompt
 ```usage
 <Usage type="yes">
 ### Yes
-- What do you want to cook tonight?
+- What’s your favourite book?
 </Usage>
 ```
 
@@ -477,7 +479,7 @@ When the response to an input field might be from a wide range of options, place
 ```usage
 <Usage type="yes">
 ### Yes
-- Filter recipes by protein, cuisine
+- Filter books by author, genre
 </Usage>
 ```
 
@@ -488,7 +490,7 @@ Sometimes, an example will make it easier for users to understand how to answer 
 ```usage
 <Usage type="yes">
 ### Yes
-- Such as “Leave inside box at side of house”
+- Such as “‘Harry Potter’ mixed with ‘A Gentleman in Moscow’”
 </Usage>
 ```
 
@@ -509,10 +511,10 @@ This is particularly important for helper messages on input fields.
 ```usage
 <Usage type="yes">
 ### Yes
-- 8–12 characters.
+- 8–12 characters
 </Usage>
 <Usage type="no">
 ### No
-- Password must be between 8–12 characters.
+- Password must be between 8–12 characters
 </Usage>
 ```

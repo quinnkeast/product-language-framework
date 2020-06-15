@@ -7,7 +7,7 @@ order: 01
 
 Our language framework helps guide all of our writing for our digital platforms. The language and words we use have a deep impact on the user experience and our business outcomes.
 
-Our goals for this framework are to:
+## Our goals for this framework
 
 - **Create consistency** across our platforms to make our experience usable, predictable, and delightful.
 - **Empower our team** and make it easy for anyone working on our digital platforms to write clear, effective, and useful content.

@@ -1,4 +1,3 @@
-import { Component } from 'react';
 import matter from 'gray-matter';
 import Layout from '../components/Layout';
 import Content from '../components/Content';

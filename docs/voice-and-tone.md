@@ -23,22 +23,21 @@ Our brand has a distinct voice and character. This voice and character is the ba
 
 When we write in our shared voice, we are always:
 
-### Optimistic
+### Sage
 
-- Give people energy through our own positivity
-- Help our customers succeed and don’t talk down to them
+- Create a positive and relaxed tone for our readers
 - Assume positive intent, even when things go wrong
 
-### Conversational
+### Curious
 
-- Be plain-spoken
-- Use our user’s language
+- Express our real interest and curiousity
+- Be an active listener for our users
    
-### Authentic
+### Confident
 
-- Communicate clearly and honestly, even when we make a mistake
-- Be direct but compassionate
-- Let our love for cooking and food shine through
+- Communicate clearly and honestly
+- Be plain-spoken
+- Let our love for reading and stories shine through
     
 ## Using tone of voice
 
@@ -51,7 +50,19 @@ We can express any given message in wildly different ways. To find the right ton
 3. Respectful vs. irreverent.
 4. Enthusiastic vs. matter-of-fact.
 
-Vary these dimensions to meet the user’s emotional and situational context at a given moment in time. Note also that our brand voice has a “range” along these dimensions, and we should aim to stay within that range to keep our voice and character consistent.
+Vary these dimensions to meet the user’s emotional and situational context at a given moment in time
+
+Our brand voice has a “range” along these dimensions, and we should aim to stay within that range to keep our voice and character consistent. We are:
+
+- More serious than funny.
+- More casual than formal.
+- More respectful than irreverent.
+- More matter-of-fact than enthusiastic.
+
+**Further Reading**  
+- [The Four Dimensions of Tone of Voice](https://www.nngroup.com/articles/tone-of-voice-dimensions/) by NNG
+
+## Adapting to emotional context 
 
 ### Positive situations
 
@@ -60,11 +71,13 @@ Vary these dimensions to meet the user’s emotional and situational context at 
 ### Do
 - Be encouraging
 - Express authentic pride
+- Express interest
 </Usage>
 <Usage type="no">
 ### Don’t
 - Don’t take credit for their success
 - Don’t assume it was easy
+- Don’t pry
 </Usage>
 ```
 
@@ -93,5 +106,6 @@ Vary these dimensions to meet the user’s emotional and situational context at 
 ### Don’t
 - Don’t minimize the problem
 - Don’t use negative or technical words
+- Don’t assign emotion
 </Usage>
 ```
