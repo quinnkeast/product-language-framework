@@ -372,16 +372,16 @@ Some specific things to keep in mind when writing success messages:
 
 While it’s important to provide certainty that what the user wanted to do actually happened, it doesn’t need to be in the template “X successfully completed.” Sometimes, this certainty can even be implicit.
 
-Imagine if we let people take and save a photo of a finished meal. When the photo is saved, we need to show a success message so they can be confident the photo was saved.
+Imagine if we let people share a book recommendation. When the recommendation is sent, we need to show a success message so they can be confident the recommendation was delivered.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- Looks amazing! Bon appetite!
+- Recommendation sent! Sharing is caring.
 </Usage>
 <Usage type="no">
 ### No
-- Photo successfully saved.
+- Recommendation successfully sent.
 </Usage>
 ```
 

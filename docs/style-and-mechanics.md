@@ -437,8 +437,8 @@ Use periods in complete sentences. Don’t use periods in headlines or labels. P
 ```usage
 <Usage type="yes">
 ### Yes
-- 3 meals in your box
-- Your delivery was rescheduled to Tuesday because of a holiday (St. Patrick’s Day).
+- 3 books on your list
+- We’ve updated the results to display only your selected languages (English, German).
 </Usage>
 <Usage type="no">
 ### No
