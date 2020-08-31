@@ -406,8 +406,6 @@ If a user adds a book to their favourites list, treat the success message as an 
 
 Empty states are everywhere. They appear when there’s nothing to show. Sometimes, they appear when the user has yet to add something to a set of items. Other times, they appear when they try to find something and can’t.
 
-Empty states are an opportunity to tell our users what there **is**, even when there’s nothing (``TODO quoting microcopy book``). 
-
 An empty state is a chance to educate users about what’s supposed to be there, what can be done there, and how it will provide value to the user.
 
 Some specific guidelines to keep in mind when writing content for empty states:
