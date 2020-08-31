@@ -2,7 +2,7 @@
 title: References, inspiration, and sources
 author: Quinn Keast
 date: 2020-02-17
-order: 03
+order: 07
 ---
 
 This guide is based on several other resources, including:
