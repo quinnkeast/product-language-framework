@@ -8,6 +8,21 @@ h2 {
   @apply text-2xl font-bold mt-12 text-gray-900;
 }
 
+h2 .anchor {
+  position: relative;
+}
+
+h2 .anchor:before {
+  @apply text-2xl font-normal text-gray-500;
+  content: "#";
+  position: absolute;
+  left: -1.5rem;
+}
+
+h2 .anchor:hover:before {
+  @apply text-blue-600;
+}
+
 h3 {
   @apply text-lg font-bold mt-8 text-gray-900;
 }
@@ -71,6 +86,12 @@ a {
 code {
   @apply p-1 rounded bg-purple-100 text-purple-600 text-base;
 }
+
+:focus {
+  outline: 0;
+  @apply shadow-outline;
+}
+
 
 @tailwind components;
 @tailwind utilities;

@@ -4,10 +4,6 @@ export const colors = {
   neutral: {
     n20: '#f9fafb', 
     n40: '#454f5b',
-  },
-  blue: {
-    b20: '#',
-    b40: '#',
   }
 };
 

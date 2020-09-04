@@ -7,6 +7,9 @@ const PageTemplate = props => (
   <Layout>
     <Head>
       <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+      <title>{props.siteTitle} | {props.data.title}</title>
+      <html lang="en-US" />
+      <script src='https://cdn.usefathom.com/script.js' site={process.env.FATHOM} defer></script>
     </Head>
     <Content {...props} path='content' key={props.slug} />
   </Layout>
@@ -34,6 +37,7 @@ PageTemplate.getInitialProps = async (context) => {
 
        const value = values[index];
        const document = matter(value.default);
+
        return {
          title: document.data.title,
          order: document.data.order,

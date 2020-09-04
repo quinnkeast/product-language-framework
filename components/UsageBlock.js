@@ -1,12 +1,27 @@
 import convert from 'htmr';
 import ReactMarkdown from 'react-markdown/with-html';
 
+function parseHeading(props) {
+  return (
+    <React.Fragment>
+      {props.children.map(child => {
+        return <a href='#' tabIndex='-1' aria-disabled disabled='disabled'>{child.props.value}</a>
+      })}
+    </React.Fragment>
+  );
+}
+
 const UsageElement = (props) => {
   return(
     <div className={`usage usage-${props.type}`}>
       <ReactMarkdown
         source={props.children.toString()}
         escapeHtml={false}
+        renderers={{
+          link: link => {
+            return parseHeading(link);
+          }
+        }}
       />
     </div>
   );

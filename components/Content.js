@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import Link from 'next/link';
 import Sidebar from './Sidebar';
 import ReactMarkdown from 'react-markdown/with-html';
 import styled from 'styled-components';
@@ -48,6 +47,7 @@ class Content extends Component {
             <Tag
               id={transformedValue}
               key={`heading-${transformedValue}`}>
+              <a name={transformedValue} className='anchor' href={`#${transformedValue}`} rel='nofollow' aria-hidden='true' title={stringValue} tabIndex='-1'></a>
               {child}
             </Tag>
           );
