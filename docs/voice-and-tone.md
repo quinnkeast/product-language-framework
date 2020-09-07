@@ -11,7 +11,7 @@ One of the ways we create a consistent and familiar experience for our users is 
 
 One of the ways we create a consistent and familiar experience for our users is by speaking with a consistent voice throughout our product and content while being aware of our tone.
 
-What’s the difference between voice and tone? Think of it this way: our **voice** is a personification of who we are. We always have the same voice. But, our **tone** changes to match our context and situation.
+What’s the difference between voice and tone? Think of it this way: our **voice** is a personification of who we are. We always have the same voice. But, our **tone** changes to match our context and situation, usually through word choice.
 
 For example, when our users are asked to provide their first book suggestion for someone looking for something to read, they might be feeling excited and maybe a bit daunted. We can cheer them on and thank them when they send a suggestion.
 
@@ -39,25 +39,18 @@ When we write in our shared voice, we are always:
 - Be plain-spoken
 - Let our love for reading and stories shine through
     
-## Using tone of voice
+## Using tone
 
 Our tone is more than just the words we choose: it’s the way that we choose to share our personality through our voice.
 
-We can express any given message in wildly different ways. To find the right tone for any given message, consider the four dimensions of tone of voice:
+We can express any given message in wildly different ways. To find the right tone for any given message, consider the four dimensions of tone:
 
 1. Funny vs. serious.
 2. Formal vs. casual.
 3. Respectful vs. irreverent.
 4. Enthusiastic vs. matter-of-fact.
 
-Vary these dimensions to meet the user’s emotional and situational context at a given moment in time
-
-Our brand voice has a “range” along these dimensions, and we should aim to stay within that range to keep our voice and character consistent. We are:
-
-- More serious than funny.
-- More casual than formal.
-- More respectful than irreverent.
-- More matter-of-fact than enthusiastic.
+Vary these dimensions to meet the user’s emotional and situational context at a given moment in time. Note that our brand voice has a “range” along these dimensions, and we should aim to stay within that range to keep our voice and character consistent.
 
 **Further Reading**  
 - [The Four Dimensions of Tone of Voice](https://www.nngroup.com/articles/tone-of-voice-dimensions/) by NNG
@@ -69,15 +62,13 @@ Our brand voice has a “range” along these dimensions, and we should aim to s
 ```usage
 <Usage type="yes">
 ### Do
-- Be encouraging
-- Express authentic pride
+- Be encouraging and positive
 - Express interest
 </Usage>
 <Usage type="no">
 ### Don’t
 - Don’t take credit for their success
 - Don’t assume it was easy
-- Don’t pry
 </Usage>
 ```
 
@@ -86,11 +77,13 @@ Our brand voice has a “range” along these dimensions, and we should aim to s
 ```usage
 <Usage type="yes">
 ### Do
-- Express confidence and connect value
+- Express confidence 
+- Connect value to action
 </Usage>
 <Usage type="no">
 ### Don’t
-- Don’t create uncertainty or tell people “what to do”
+- Don’t create uncertainty 
+- Don’t tell people “what to do”
 </Usage>
 ```
 
