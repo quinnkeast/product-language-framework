@@ -4,7 +4,9 @@ A ready-to-go starter kit for your product team’s copywriting and style guidel
 
 - Useful and universal guidelines for strong UX copywriting
 - Ready-to-go examples that you can use as a guideline for replacing with examples from your own product
-- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice. 
+- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice.
+
+[See the framework in action](https://uxcopy.quinnkeast.com).
 
 ## Why a product language framework?
 
