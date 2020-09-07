@@ -44,7 +44,7 @@ After completing the installation, run `npm run dev` to start the local developm
 
 To add more advanced examples for guidelines while still using markdown, this framework contains a component called `UsageBlock`. This component is a bit of a hacky way of using a fenced code block along with syntax highlighting to process the content as a React component, along with props and internal markdown. It looks like this in the markdown:
 
-```
+~~~
 ```usage
 <Usage type="yes">
 ### Yes
@@ -55,7 +55,7 @@ To add more advanced examples for guidelines while still using markdown, this fr
 - Why “Dune” deserves a re-read?
 </Usage>
 ```
-```
+~~~
 
 You may find this introduces extra complexity in your project: feel free to remove the formatting and use plain markdown instead.
 
