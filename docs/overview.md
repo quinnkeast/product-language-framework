@@ -6,8 +6,8 @@ order: 01
 ---
 
 This is a ready-to-go starter kit for your product team’s copywriting and style guidelines:
-- Useful and universal guidelines for strong UX copywriting.  
-- Ready-to-go examples that you can use as a guideline for replacing with examples from your own product.  
+- Useful and semi-universal guidelines for strong UX copywriting.  
+- Real examples that you can use as a starting point, and replace with examples from your own product.
 - Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site (you’re using it now!) that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice.  
 
 Use this site as your own reference for UX copywriting or [get the framework on GitHub](https://github.com/quinnkeast/product-language-framework/).  
@@ -24,7 +24,7 @@ The problem is, guidelines take a lot of work to create. And, there’s a large 
 
 While there are a few wonderful examples of existing content guidelines out out on the internet, these existing references tend to belong to large companies and aren’t open-sourced for easy repurposing and adaptation by other product teams for their own use.
 
-This product language framework is a solution to these problems: it’s a complete set of useful and universal guidelines for strong UX copywriting that can be customized for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
+This product language framework is a solution to these problems: it’s a complete set of useful and semi-universal guidelines for strong UX copywriting that can be customized and extended for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
 
 ## Usage
 

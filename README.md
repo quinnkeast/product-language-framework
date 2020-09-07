@@ -2,7 +2,7 @@
 
 A ready-to-go starter kit for your product team’s copywriting and style guidelines:
 
-- Useful and universal guidelines for strong UX copywriting.
+- Useful and semi-universal guidelines for strong UX copywriting.
 - Real examples that you can use as a starting point, and replace with examples from your own product.
 - Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice. 
 
@@ -20,7 +20,7 @@ The problem is, guidelines take a lot of work to create. And, there’s a large 
 
 While there are a few wonderful examples of existing content guidelines out out on the internet, these existing references tend to belong to large companies and aren’t open-sourced for easy repurposing and adaptation by other product teams for their own use.
 
-This product language framework is a solution to these problems: it’s a complete set of useful and universal guidelines for strong UX copywriting that can be customized for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
+This product language framework is a solution to these problems: it’s a complete set of useful and semi-universal guidelines for strong UX copywriting that can be customized and extended for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
 
 ## Usage
 
@@ -30,7 +30,7 @@ To provide realistic and useful examples throughout the guidelines, the language
 
 ### Using the guidelines
 
-The content guidelines are written in Markdown and entirely contained in the `docs` directory. Examples are included for most sections. To make this framework your own, go through the examples and update them to reflect real examples of your own product.
+The content guidelines are written in markdown and entirely contained in the `docs` directory. Examples are included for most sections. To make this framework your own, go through the examples and update them to reflect real examples of your own product.
 
 ### Using the complete framework with static site generator
 
@@ -48,7 +48,7 @@ After making changes to a `.md` file in `/docs`, you will need to reload the pag
 
 #### Usage component
 
-To add more advanced examples for guidelines while still using markdown, this framework contains a component called `UsageBlock`. This component is a bit of a hacky way of using a fenced code block along with syntax highlighting to process the content as a React component, along with props and internal markdown. It looks like this in the markdown:
+To add more advanced examples for guidelines while still using markdown, this framework contains a component called `UsageBlock`. This component is a hacky way of using a fenced code block along with syntax highlighting to process the content as JSX, then also process its internal markdown. It looks like this:
 
 ~~~
 ```usage
@@ -63,7 +63,7 @@ To add more advanced examples for guidelines while still using markdown, this fr
 ```
 ~~~
 
-You may find this introduces extra complexity in your project: feel free to remove the formatting and use plain markdown instead.
+You may find this introduces extra complexity in your project. Feel free to remove the formatting and use plain markdown instead.
 
 ### Using the guidelines as-is
 
