@@ -65,7 +65,7 @@ To add more advanced examples for guidelines while still using markdown, this fr
 
 You may find this introduces extra complexity in your project: feel free to remove the formatting and use plain markdown instead.
 
-### Use the guidelines as-is
+### Using the guidelines as-is
 
 These guidelines were created to be a usable reference for strong copywriting as-is. Please feel also free to use [the example guidelines](https://uxcopy.quinnkeast.com) as a general reference!
 
