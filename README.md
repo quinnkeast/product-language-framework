@@ -3,7 +3,7 @@
 A ready-to-go starter kit for your product team’s copywriting and style guidelines:
 
 - Useful and universal guidelines for strong UX copywriting.
-- Ready-to-go examples that you can use as a guideline for replacing with examples from your own product.
+- Real examples that you can use as a starting point, and replace with examples from your own product.
 - Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice. 
 
 [See the framework in action](https://uxcopy.quinnkeast.com) →
@@ -14,7 +14,7 @@ Content and copywriting guidelines are an amazing way for product teams to:
 
 - **Create consistency** across the product to make a usable, predictable, and on-brand experience.
 - **Empower teams** to make easier for anyone to write clear, effective, and useful content.
-- **Create positive change** in language standards to create compassionate, inclusive, and respectful products.
+- **Drive positive change** in language standards to create compassionate, inclusive, and respectful products.
 
 The problem is, guidelines take a lot of work to create. And, there’s a large barrier to adoption in that if they aren’t easily edited and made available to the rest of the team, they aren’t likely to be used.
 
@@ -65,6 +65,10 @@ To add more advanced examples for guidelines while still using markdown, this fr
 
 You may find this introduces extra complexity in your project: feel free to remove the formatting and use plain markdown instead.
 
-## Can I just copy / paste the whole thing?
+### Use the guidelines as-is
+
+These guidelines were created to be a usable reference for strong copywriting as-is. Please feel also free to use [the example guidelines](https://uxcopy.quinnkeast.com) as a general reference!
+
+## So uh can I just copy / paste the whole thing?
 
 Yes. This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:quinn@hey.com)! I’d love to see what others do with it.

@@ -18,7 +18,7 @@ Content and copywriting guidelines are an amazing way for product teams to:
 
 - **Create consistency** across the product to make a usable, predictable, and on-brand experience.
 - **Empower teams** to make easier for anyone to write clear, effective, and useful content.
-- **Create positive change** in language standards to create compassionate, inclusive, and respectful products.
+- **Drive positive change** in language standards to create compassionate, inclusive, and respectful products.
 
 The problem is, guidelines take a lot of work to create. And, there’s a large barrier to adoption in that if they aren’t easily edited and made available to the rest of the team, they aren’t likely to be used.
 
