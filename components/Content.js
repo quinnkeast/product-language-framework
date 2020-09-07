@@ -2,23 +2,7 @@ import { Component } from 'react';
 import Sidebar from './Sidebar';
 import ReactMarkdown from 'react-markdown/with-html';
 import styled from 'styled-components';
-import { breakpoints, spacing } from '../styles/tokens';
 import UsageBlock from './UsageBlock';
-
-const GridContainer = styled.div`
-  display: grid;
-  grid-template-areas: 'sidebar'
-                       'content';
-
-  @media (min-width: ${breakpoints.tabletPortrait}) {
-    grid-template-areas: 'sidebar content';
-    grid-template-columns: 300px 1fr;
-    grid-column-gap: ${spacing.xxl};
-  }
-`;
-
-const Article = styled.article`  
-`;
 
 class Content extends Component {
   constructor(props) {

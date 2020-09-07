@@ -5,24 +5,41 @@ date: 2020-02-17
 order: 01
 ---
 
-Our language framework helps guide all of our writing for our digital platforms. The language and words we use have a deep impact on the user experience and our business outcomes.
+This is a ready-to-go starter kit for your product team’s copywriting and style guidelines:
+- Useful and universal guidelines for strong UX copywriting.  
+- Ready-to-go examples that you can use as a guideline for replacing with examples from your own product.  
+- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site (you’re using it now!) that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice.  
 
-## Our goals for this framework
+Use this site as your own reference for UX copywriting or [get the framework on GitHub](https://github.com/quinnkeast/product-language-framework/).  
 
-- **Create consistency** across our platforms to make our experience usable, predictable, and delightful.
-- **Empower our team** and make it easy for anyone working on our digital platforms to write clear, effective, and useful content.
-- **Create positive change** in the language we use to create compassionate, inclusive, and respective products.
+## Why a product language framework?
 
-## Fictional product: Foreword
+Content and copywriting guidelines are an amazing way for product teams to:
 
-This product language framework is built to support a fictional product: **Foreword**, a platform for people to ask for and share recommendations for books to read, based on shared reading history. All of the examples used in this framework use this fictional product as a basis.
+- **Create consistency** across the product to make a usable, predictable, and on-brand experience.
+- **Empower teams** to make easier for anyone to write clear, effective, and useful content.
+- **Create positive change** in language standards to create compassionate, inclusive, and respectful products.
 
-## License and re-use
+The problem is, guidelines take a lot of work to create. And, there’s a large barrier to adoption in that if they aren’t easily edited and made available to the rest of the team, they aren’t likely to be used.
 
-I created this framework because although there are lots of wonderful examples of content frameworks out there, they’re hard to bring into a product team’s own work. This framework is published with an MIT License. **Please use this framework in part or in whole as the basis for your own team’s product language framework!**
+While there are a few wonderful examples of existing content guidelines out out on the internet, these existing references tend to belong to large companies and aren’t open-sourced for easy repurposing and adaptation by other product teams for their own use.
 
-## How to adapt this framework for your product
+This product language framework is a solution to these problems: it’s a complete set of useful and universal guidelines for strong UX copywriting that can be customized for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
 
-To make this product language framework best support your own product, go through the examples and update them to reflect real examples from your own product. If you find opportunities to improve your own product’s language while coming up with examples, go for it! It would be easy to use this framework as a starting point for a complete content audit.
+## Usage
 
-Remember, this framework is a starting point. Change it to suit your needs!
+### Fictional product: Foreword
+
+To provide realistic and useful examples throughout the guidelines, the language framework is built to support a fictional product: **Foreword**, a platform for people to ask for and share recommendations for books to read, based on shared reading history. All of the examples used in this framework use this fictional product as a basis.
+
+### Using the guidelines as-is
+
+The guidelines on this static site can be used as-is as a reference for your own work. If you feel something is incorrect or could be better, [please let me know](mailto:quinn@hey.com) or submit a [PR on GitHub](https://github.com/quinnkeast/product-language-framework/)!
+
+### Adapting the framework for your own product
+
+The complete framework, including all guidelines in markdown and a static site generator, is available [on GitHub](https://github.com/quinnkeast/product-language-framework/).
+
+## So uh can I just copy / paste the whole thing?
+
+Yes. This framework has an [MIT license](https://github.com/quinnkeast/product-language-framework/blob/master/LICENSE) and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:quinn@hey.com)! I’d love to see what others do with it.

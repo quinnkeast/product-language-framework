@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import styled from 'styled-components';
 import Router, { useRouter } from 'next/router';
-import { colors, spacing, breakpoints } from '../styles/tokens';
 
 import {
   Menu,

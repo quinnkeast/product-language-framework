@@ -92,6 +92,13 @@ code {
   @apply shadow-outline;
 }
 
+blockquote {
+  @apply bg-purple-100 rounded-lg pt-2 pl-6 pr-6 pb-6;
+}
+
+blockquote p, blockquote li {
+  @apply text-purple-900;
+}
 
 @tailwind components;
 @tailwind utilities;

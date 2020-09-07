@@ -2,23 +2,23 @@
 
 A ready-to-go starter kit for your product team’s copywriting and style guidelines:
 
-- Useful and universal guidelines for strong UX copywriting
-- Ready-to-go examples that you can use as a guideline for replacing with examples from your own product
-- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice.
+- Useful and universal guidelines for strong UX copywriting.
+- Ready-to-go examples that you can use as a guideline for replacing with examples from your own product.
+- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice. 
 
-[See the framework in action](https://uxcopy.quinnkeast.com).
+[See the framework in action](https://uxcopy.quinnkeast.com) →
 
 ## Why a product language framework?
 
-Content guidlines are an amazing way for product teams to:
+Content and copywriting guidelines are an amazing way for product teams to:
 
 - **Create consistency** across the product to make a usable, predictable, and on-brand experience.
 - **Empower teams** to make easier for anyone to write clear, effective, and useful content.
 - **Create positive change** in language standards to create compassionate, inclusive, and respectful products.
 
-The problem is, content guidelines are a lot of work to create. And, there’s a large barrier to adoption in that if they aren’t easily edited and made available to the rest of the team, they aren’t likely to be used.
+The problem is, guidelines take a lot of work to create. And, there’s a large barrier to adoption in that if they aren’t easily edited and made available to the rest of the team, they aren’t likely to be used.
 
-While there are a few wonderful examples of existing content guidelines out in the wild, these existing references tend to belong to large companies and aren’t open-sourced for easy repurposing and adaptation by other product teams for their own use.
+While there are a few wonderful examples of existing content guidelines out out on the internet, these existing references tend to belong to large companies and aren’t open-sourced for easy repurposing and adaptation by other product teams for their own use.
 
 This product language framework is a solution to these problems: it’s a complete set of useful and universal guidelines for strong UX copywriting that can be customized for your own product, and it’s a minimal static site that can be built, deployed, and put to use in seconds.
 
@@ -42,6 +42,10 @@ Clone the repo and run `npm install` to install project dependencies.
 
 After completing the installation, run `npm run dev` to start the local development server. If you haven’t used Next.js before, reference the [documentation](https://nextjs.org/docs/getting-started) to learn more about routing and app structure.
 
+#### Editing markdown
+
+After making changes to a `.md` file in `/docs`, you will need to reload the page to view your changes.
+
 #### Usage component
 
 To add more advanced examples for guidelines while still using markdown, this framework contains a component called `UsageBlock`. This component is a bit of a hacky way of using a fenced code block along with syntax highlighting to process the content as a React component, along with props and internal markdown. It looks like this in the markdown:
@@ -61,6 +65,6 @@ To add more advanced examples for guidelines while still using markdown, this fr
 
 You may find this introduces extra complexity in your project: feel free to remove the formatting and use plain markdown instead.
 
-## So uh can I just copy/paste the whole thing?
+## Can I just copy / paste the whole thing?
 
-Yes. This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please share a link with me! I’d love to see what others do with it.
+Yes. This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:quinn@hey.com)! I’d love to see what others do with it.
