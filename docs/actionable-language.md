@@ -206,11 +206,11 @@ Links should provide information about what to expect about the associated actio
 ```usage
 <Usage type="yes">
 ### Yes
-- View [nutrition information](#).
+- View [publication information](#).
 </Usage>
 <Usage type="no">
 ### No
-- Want nutrition information? [Click here](#).</a>
+- Want publication information? [Click here](#).</a>
 </Usage>
 ```
 
