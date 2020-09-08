@@ -69,6 +69,10 @@ You may find this introduces extra complexity in your project. Feel free to remo
 
 These guidelines were created to be a usable reference for strong copywriting as-is. Please feel also free to use [the example guidelines](https://uxcopy.quinnkeast.com) as a general reference!
 
+### Using with Notion
+
+The complete framework is also available as a [Notion template](https://www.notion.so/noukka/Product-Language-Framework-5465ba9f736a4e6eb299f9cd325eb1c3) thanks to [@noukkasigne](https://twitter.com/noukkasigne). (Note that the template isn’t synced with this framework and may not match in full.)
+
 ## So uh can I just copy / paste the whole thing?
 
 Yes. This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:quinn@hey.com)! I’d love to see what others do with it.
