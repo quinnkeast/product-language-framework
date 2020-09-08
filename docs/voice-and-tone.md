@@ -9,8 +9,6 @@ One of the ways we create a consistent and familiar experience for our users is 
 
 ## What’s the difference between voice and tone?
 
-One of the ways we create a consistent and familiar experience for our users is by speaking with a consistent voice throughout our product and content while being aware of our tone.
-
 What’s the difference between voice and tone? Think of it this way: our **voice** is a personification of who we are. We always have the same voice. But, our **tone** changes to match our context and situation, usually through word choice.
 
 For example, when our users are asked to provide their first book suggestion for someone looking for something to read, they might be feeling excited and maybe a bit daunted. We can cheer them on and thank them when they send a suggestion.
