@@ -248,13 +248,22 @@ When writing about US, CA, or AU currency, use the dollar sign ($) before the am
 </Usage>
 ```
 
-When writing about EUR currency, use the Euro sign (€) after the amount. Always include a comma and number of cents. Insert a space between the number and the Euro sign.
+When writing about EUR currency, use the Euro sign (€) after the amount. This applies in English, Dutch, Irish, and Maltese. 
+
+In all other official EU languages the order is reversed: first the amount, then a space and the Euro sign.
+
+Always include a comma and number of cents. Note that English, Irish, and Maltese use a period instead of a comma. Look up local languages to confirm the correct separator for decimals.
 
 ```usage
 <Usage type="yes">
 ### Yes
-- 10,00 €
-- 42,99 €
+- **In English, Dutch, Irish, and Maltese**  
+€10,00 or €10.00  
+€42,99 or €42.99
+
+- **In all other official EU languages**  
+10,00 €  
+42,99 €
 </Usage>
 ```
 
