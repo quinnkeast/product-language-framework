@@ -54,7 +54,7 @@ Use passive voice when you don’t want to assign responsibility for an action. 
 </Usage>
 <Usage type="no">
 ### No
-- Wrong email address provided.
+- Invalid email address.
 </Usage>
 ```
 
