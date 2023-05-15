@@ -1,14 +1,17 @@
 # Product Language Framework
 
-A ready-to-go starter kit for your product team’s copywriting and style guidelines:
+A comprehensive set of UX copywriting and style guidelines to use as a reference, or to adapt for your product team’s own copywriting and style guidelines.
+
+As a standalone reference at [uxlanguage.com](https://uxlanguage.com):
 
 - Useful and semi-universal guidelines for strong UX copywriting.
 - Real examples that you can use as a starting point, and replace with examples from your own product.
-- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice. 
 
-[See the framework in action](https://uxcopy.quinnkeast.com) →
+As a framework for implementing your own copywriting and style guidelines:
 
-## Why a product language framework?
+- Uses [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/) to turn markdown-based documentation into a minimal but useful static site that can be built and deployed with [Vercel](https://vercel.co), [Netlify](https://netlify.com), or other tools of choice.
+
+## Why use this language framework?
 
 Content and copywriting guidelines are an amazing way for product teams to:
 
@@ -26,7 +29,7 @@ This product language framework is a solution to these problems: it’s a comple
 
 ### Fictional product: Foreword
 
-To provide realistic and useful examples throughout the guidelines, the language framework is built to support a fictional product: **Foreword**, a platform for people to ask for and share recommendations for books to read, based on shared reading history. All of the examples used in this framework use this fictional product as a basis.
+To provide realistic and useful examples throughout the guidelines, the language guidelines are built to support a fictional product called **Foreword**—a platform for people to ask for and share recommendations for books to read, based on shared reading history. All examples use this fictional product as a basis.
 
 ### Using the guidelines
 
@@ -50,7 +53,7 @@ After making changes to a `.md` file in `/docs`, you will need to reload the pag
 
 To add more advanced examples for guidelines while still using markdown, this framework contains a component called `UsageBlock`. This component is a hacky way of using a fenced code block along with syntax highlighting to process the content as JSX, then also process its internal markdown. It looks like this:
 
-~~~
+````
 ```usage
 <Usage type="yes">
 ### Yes
@@ -61,18 +64,14 @@ To add more advanced examples for guidelines while still using markdown, this fr
 - Why “Dune” deserves a re-read?
 </Usage>
 ```
-~~~
+````
 
 You may find this introduces extra complexity in your project. Feel free to remove the formatting and use plain markdown instead.
 
-### Using the guidelines as-is
-
-These guidelines were created to be a usable reference for strong copywriting as-is. Please feel also free to use [the example guidelines](https://uxcopy.quinnkeast.com) as a general reference!
-
 ### Using with Notion
 
-The complete framework is also available as a [Notion template](https://www.notion.so/noukka/Product-Language-Framework-5465ba9f736a4e6eb299f9cd325eb1c3) thanks to [@noukkasigne](https://twitter.com/noukkasigne). (Note that the template isn’t synced with this framework and may not match in full.)
+The guidelines are also available as a [Notion template](https://www.notion.so/noukka/Product-Language-Framework-5465ba9f736a4e6eb299f9cd325eb1c3) thanks to [@noukkasigne](https://twitter.com/noukkasigne). (Note that the template isn’t synced with this framework and may not match in full.)
 
-## So uh can I just copy / paste the whole thing?
+## Reuse for your own product
 
-Yes. This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:quinn@hey.com)! I’d love to see what others do with it.
+This framework has an MIT license and is intended for you to take it, adapt it, and re-use it however you see fit. If you use it to create your own, please [share a link with me](mailto:hey@quinnkeast.com)! I’d love to see what others do with it.
