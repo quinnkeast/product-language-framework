@@ -89,7 +89,7 @@ code {
 
 :focus {
   outline: 0;
-  @apply shadow-outline;
+  @apply outline;
 }
 
 blockquote {

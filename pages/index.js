@@ -1,13 +1,16 @@
-import React, { useEffect } from 'react';
-import Router from 'next/router';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 // Redirect '/' to /overview so that the markdown docs just work
 export default function Index() {
+  const router = useRouter();
+
   useEffect(() => {
-    const {pathname} = Router;
+    const {pathname} = router;
     if (pathname === '/') {
-      Router.push('/overview');
+      router.push('/overview');
     }
   }, []);
+
   return (null);
 }

@@ -1,90 +1,59 @@
-import { Component } from 'react';
+import React, { useState, useMemo } from 'react';
 import Sidebar from './Sidebar';
-import ReactMarkdown from 'react-markdown/with-html';
-import styled from 'styled-components';
-import UsageBlock from './UsageBlock';
+import { getMDXComponent } from "mdx-bundler/client";
 
-class Content extends Component {
-  constructor(props) {
-    super(props);
+const Content = (props) => {
+  const { page, pages, path } = props;
 
-    this.state = {
-      sectionHeadings: []
-    };
-  }
-
-  parseHeading(props) {
-    const { sectionHeadings } = this.state;
+  const [sectionHeadings, setSectionHeadings] = useState([]);
+  
+  const parseHeading = (props) => {
     return (
-      <React.Fragment>
-        {props.children.map(child => {
+      <>
+        {props.children.map((child) => {
           const stringValue = child.props.value;
           const transformedValue = stringValue.replace(/\s+/g, '-').toLowerCase();
           const Tag = `h${props.level}`;
           // We only want to include H2 elements in the sidebar as section navigation
-          if (sectionHeadings.indexOf(stringValue) < 0 && props.level == 2) {
-            sectionHeadings.push(stringValue);
-            this.setState({ sectionHeadings });
+          if (sectionHeadings.indexOf(stringValue) < 0 && props.level === 2) {
+            setSectionHeadings((prevHeadings) => [...prevHeadings, stringValue]);
           }
 
           return (
-            <Tag
-              id={transformedValue}
-              key={`heading-${transformedValue}`}>
+            <Tag id={transformedValue} key={`heading-${transformedValue}`}>
               <a name={transformedValue} className='anchor' href={`#${transformedValue}`} rel='nofollow' aria-hidden='true' title={stringValue} tabIndex='-1'></a>
               {child}
             </Tag>
           );
         })}
-      </React.Fragment>
+      </>
     );
-  }
+  };
 
-  render(props) {
-    const { 
-      content,
-      data,
-      pages,
-      slug,
-      path,
-    } = this.props;
+  const ContentComponent = useMemo(() => getMDXComponent(page.content), [page.content]);
 
-    const { sectionHeadings } = this.state;
-    
-    return (
-      <div className='grid grid-cols-1 md:grid-cols-7 md:gap-12'>
-        <Sidebar 
-          className='col-span-2'
-          path={path}
-          pages={pages}
-          sections={sectionHeadings}
-          currentPage={slug}
-          currentPageTitle={data.title}
+  return (
+    <div className='grid grid-cols-1 md:grid-cols-7 md:gap-12'>
+      <Sidebar
+        className='col-span-2'
+        path={path}
+        pages={pages}
+        sections={sectionHeadings}
+        currentPage={page.slug}
+        currentPageTitle={page.title}
+      />
+      <article className='md:col-span-5 md:pt-8'>
+        <h1>{page.title}</h1>
+        <ContentComponent
+          components={{
+            heading: (heading) => {
+              return parseHeading(heading);
+            },
+          }}
         />
-        <article className='md:col-span-5 md:pt-8'>
-          <h1>{data.title}</h1>
-          <ReactMarkdown 
-            source={content}
-            escapeHtml={false}
-            renderers={{ 
-              heading: heading => {
-                return this.parseHeading(heading);
-              },
-              code: ({ language, value }) => {
-                if (language === 'usage') {
-                  return <UsageBlock>{value}</UsageBlock>;
-                }
-                const className = language && `language-${language}`;
-                const code = React.createElement('code', className ? { className: className } : null, value);
-                return React.createElement('pre', {}, code);
-              }
-            }}
-          />
-        </article>
-      </div>
-    );
-  }
-}
+      </article>
+    </div>
+  );
+};
 
 export default Content;
-

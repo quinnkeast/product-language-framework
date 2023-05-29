@@ -5,6 +5,8 @@ date: 2020-02-17
 order: 02
 ---
 
+import { UsageBlock, Usage } from "../components/UsageBlock.jsx";
+
 One of the ways we create a consistent and familiar experience for our users is by speaking with a consistent voice throughout our product and content while being aware of our tone.
 
 ## What’s the difference between voice and tone?
@@ -57,46 +59,58 @@ Vary these dimensions to meet the user’s emotional and situational context at 
 
 ### Positive situations
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Do
 - Be encouraging and positive
 - Express interest
+
 </Usage>
 <Usage type="no">
+
 ### Don’t
 - Don’t take credit for their success
 - Don’t assume it was easy
+
 </Usage>
-```
+</UsageBlock>
 
 ### Neutral situations
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Do
 - Express confidence 
 - Connect value to action
+
 </Usage>
 <Usage type="no">
+
 ### Don’t
 - Don’t create uncertainty 
 - Don’t tell people “what to do”
+
 </Usage>
-```
+</UsageBlock>
 
 ### Negative situations
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Do
 - Be honest and direct about problems and provide next steps
 - Use conversational but straightforward language
+
 </Usage>
 <Usage type="no">
+
 ### Don’t
 - Don’t minimize the problem
 - Don’t use negative or technical words
 - Don’t assign emotion
+
 </Usage>
-```
+</UsageBlock>
