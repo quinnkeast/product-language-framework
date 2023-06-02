@@ -6,29 +6,21 @@ const Content = (props) => {
   const { page, pages, path } = props;
 
   const [sectionHeadings, setSectionHeadings] = useState([]);
-  
-  const parseHeading = (props) => {
-    return (
-      <>
-        {props.children.map((child) => {
-          const stringValue = child.props.value;
-          const transformedValue = stringValue.replace(/\s+/g, '-').toLowerCase();
-          const Tag = `h${props.level}`;
-          // We only want to include H2 elements in the sidebar as section navigation
-          if (sectionHeadings.indexOf(stringValue) < 0 && props.level === 2) {
-            setSectionHeadings((prevHeadings) => [...prevHeadings, stringValue]);
-          }
 
-          return (
-            <Tag id={transformedValue} key={`heading-${transformedValue}`}>
-              <a name={transformedValue} className='anchor' href={`#${transformedValue}`} rel='nofollow' aria-hidden='true' title={stringValue} tabIndex='-1'></a>
-              {child}
-            </Tag>
-          );
-        })}
-      </>
+  const parseHeading = (props) => {
+    console.log(props);
+    const stringValue = props.value;
+    const transformedValue = stringValue.replace(/\s+/g, '-').toLowerCase();
+
+    setSectionHeadings((prevHeadings) => [...prevHeadings, stringValue]);
+
+    return (
+      <h2 id={transformedValue} key={`heading-${transformedValue}`}>
+        <a name={transformedValue} className='anchor' href={`#${transformedValue}`} rel='nofollow' aria-hidden='true' title={stringValue} tabIndex='-1'></a>
+        {props.value}
+      </h2>
     );
-  };
+  }
 
   const ContentComponent = useMemo(() => getMDXComponent(page.content), [page.content]);
 
@@ -46,9 +38,7 @@ const Content = (props) => {
         <h1>{page.title}</h1>
         <ContentComponent
           components={{
-            heading: (heading) => {
-              return parseHeading(heading);
-            },
+            h2: (props) => { console.log(props); return parseHeading(props) },
           }}
         />
       </article>
