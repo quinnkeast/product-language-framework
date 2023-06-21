@@ -5,13 +5,14 @@ import { useRouter } from 'next/router';
 const ActiveLink = ({ children, ...props }) => {
   const router = useRouter();
   const child = React.Children.only(children);
-  let className = child.props.className || '';
+  let className = props.className || '';
   if (router.asPath === props.as && props.activeClassName) {
     className = `${className} ${props.activeClassName}`.trim();
   }
   
   delete props.activeClassName;
-  return <Link {...props}>{React.cloneElement(child, { className })}</Link>;
+  
+  return <Link {...props} className={className}>{children}</Link>;
 }
 
 const Sidebar = (props) => {
@@ -19,27 +20,23 @@ const Sidebar = (props) => {
   
   return (
     <div className={props.className}>
-      <aside className='hidden md:flex max-h-screen sticky top-0 overflow-auto pr-8'>
+      <aside className='hidden md:flex max-h-screen sticky top-0 overflow-visible pr-8'>
         <nav className='pb-8 pt-8' aria-label='Main menu'>
           {pages.map(page => (
             <div key={`page-${page.slug}`}>
               <ActiveLink
                 href={`/[slug]`}
                 as={`/${page.slug}`}
-                activeClassName='active'
-                className='flex pb-2 pt-2 text-lg text-gray-800'
+                activeClassName='font-semibold'
+                className='flex my-3 text-lg text-gray-800 hover:text-blue-500'
                 title={page.title}
                 aria-level='2'
               >
                 <>{page.title}</>
               </ActiveLink>
-              {page.slug && page.slug === props.currentPage && props.sections && <div className='border-l border-grey-600 pl-4 mt-4 mb-4'>
-                {props.sections.map(section => {
-                  const id = section.replace(/\s+/g, '-').toLowerCase();
-                  return (
-                    <a href={`#${id}`} key={`section-${id}`} className='flex pb-2 pt-2 text-base' title={section} aria-level='3'>{section}</a>
-                  );
-                })}
+              {(page.slug === props.currentPage) && props.sections && <div className='border-l border-grey-600 pl-4 mt-4 mb-4'>
+                {props.sections.map(section => <a href={section.link} key={section.link} className='flex text-base my-2' title={section.text} aria-level='3'>{section.text}</a>
+                )}
               </div>}
             </div>
           ))}

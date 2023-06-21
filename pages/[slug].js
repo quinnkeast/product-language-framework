@@ -16,24 +16,47 @@ export default function Page({ page, pages }) {
 }
 
 export async function getStaticProps({ params }) {
+  const pages = await getAllPages([
+    "slug", 
+    "title",
+    "order",
+  ]);
+
   const page = await getPageBySlug(params.slug, [
     "title",
     "order",
     "content",
   ]);
 
-  const content = (await mdxToHtml(page.content)) || "";
+  const content = await mdxToHtml(page.content);
 
-  const pages = await getAllPages([
-    "slug", 
-    "title"
-  ]);
+  const getSections = (source) => {
+    const regex = /^##\s+(.*)$/gm;
+  
+    if (source.match(regex)) {
+      return source.match(regex).map((heading) => {
+        const headingText = heading.replace(/^##\s+/, '');
+        const link = '#' + headingText.replace(/ /g, '-').toLowerCase();
+  
+        return {
+          text: headingText,
+          link,
+        };
+      });
+    }
+    return [];
+  };
+
+  const sections = getSections(page.content);
+  const slug = params.slug;
 
   return {
     props: {
       page: {
         ...page,
         content,
+        sections,
+        slug,
       },
       pages,
     },
