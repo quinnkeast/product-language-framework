@@ -13,6 +13,7 @@
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
     "@next/mdx": "^13.4.6",
+    "esbuild": "^0.18.6",
     "gray-matter": "^4.0.2",
     "htmr": "^1.0.2",
     "mdx-bundler": "^9.2.1",
