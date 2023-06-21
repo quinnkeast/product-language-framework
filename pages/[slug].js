@@ -1,57 +1,79 @@
-import matter from 'gray-matter';
 import Layout from '../components/Layout';
 import Content from '../components/Content';
 import Head from 'next/head';
+import mdxToHtml from "../lib/mdxToHtml";
+import { getPageBySlug, getAllPages } from "../lib/api";
 
-const PageTemplate = props => (
-  <Layout>
-    <Head>
-      <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
-      <title>{props.siteTitle} | {props.data.title}</title>
-      <html lang="en-US" />
-      <script src='https://cdn.usefathom.com/script.js' site={process.env.FATHOM} defer></script>
-    </Head>
-    <Content {...props} path='content' key={props.slug} />
-  </Layout>
-);
+export default function Page({ page, pages }) {
+  return(
+    <Layout>
+      <Head>
+        <title>{page.title}</title>
+      </Head>
+      <Content page={page} pages={pages} path='content' key={page.slug} />
+    </Layout>
+  );
+}
 
-export default PageTemplate;
+export async function getStaticProps({ params }) {
+  const pages = await getAllPages([
+    "slug", 
+    "title",
+    "order",
+  ]);
 
-PageTemplate.getInitialProps = async (context) => {
-  const { slug } = context.query;
-  const config = await import(`../data/config.json`);
-  const content = await import(`../docs/${slug}.md`);
-  const pageData = matter(content.default);
+  const page = await getPageBySlug(params.slug, [
+    "title",
+    "order",
+    "content",
+  ]);
 
-  // Get pages from docs folder
-  // Get all .md files from the docs dir
-  const pages = (ctx => {
-    const keys = ctx.keys();
-    const values = keys.map(ctx);
-    const data = keys.map((key, index) => {
-      const slug = key
-        .replace(/^.*[\\\/]/, '')
-        .split('.')
-        .slice(0, -1)
-        .join('.');
+  const content = await mdxToHtml(page.content);
 
-       const value = values[index];
-       const document = matter(value.default);
+  const getSections = (source) => {
+    const regex = /^##\s+(.*)$/gm;
+  
+    if (source.match(regex)) {
+      return source.match(regex).map((heading) => {
+        const headingText = heading.replace(/^##\s+/, '');
+        const link = '#' + headingText.replace(/ /g, '-').toLowerCase();
+  
+        return {
+          text: headingText,
+          link,
+        };
+      });
+    }
+    return [];
+  };
 
-       return {
-         title: document.data.title,
-         order: document.data.order,
-         document,
-         slug,
-       };
-    });
-    return data;
-  })(require.context('../docs/', true, /\.md$/));
+  const sections = getSections(page.content);
+  const slug = params.slug;
 
   return {
-    siteTitle: config.title,
-    slug,
-    pages,
-    ...pageData
+    props: {
+      page: {
+        ...page,
+        content,
+        sections,
+        slug,
+      },
+      pages,
+    },
   }
+}
+
+export async function getStaticPaths() {
+  const pages = await getAllPages(["slug"]);
+
+  return {
+    paths: pages.map((page) => {
+      return {
+        params: {
+          slug: page.slug,
+        }
+      }
+    }),
+    fallback: false,
+  };
 }

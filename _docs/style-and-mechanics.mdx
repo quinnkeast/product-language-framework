@@ -5,26 +5,33 @@ date: 2020-02-17
 order: 04
 ---
 
+import UsageBlock from "../components/UsageBlock.jsx";
+import Usage from "../components/Usage.jsx";
+
 We have an editorial style for our digital products to help us keep our copy clear and consistent, and specific guidelines to write and structure content to make it easy for users to understand and act on.
 
 ## Abbreviations & acronyms
 
 Avoid abbreviations and acronyms when possible.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - for example
+
 </Usage>
 <Usage type="no">
+
 ### No
 - e.g.
+
 </Usage>
-```
+</UsageBlock>
 
 ## Adverbs and adjectives
 
-Try to avoid adjectives and adverbs. Using adjectives and adverbs (for example, “easy” read) shapes perception and sets expectations, and can inadvertently lead to a negative emotional experience for our users. 
+Try to avoid adjectives and adverbs. Using adjectives and adverbs (for example, “easy” read) shapes perception and sets expectations, and can inadvertently lead to a negative emotional experience for our users.
 
 If someone is a newer reader, then describing a book as “easy” might help them choose to read it. But if it takes them a long time to read it, they may feel bad because the book was supposed to be “easy,” and it still took them a while.
 
@@ -34,44 +41,56 @@ Instead, look for opportunities to capture the same meaning through other forms.
 
 Use active voice and avoid passive voice. In active voice, the subject of the sentence does the action. In passive voice, the subject of the sentence has the action done to it.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Added book to list.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - The book was added to the list.
+
 </Usage>
-```
+</UsageBlock>
 
 Use passive voice when you don’t want to assign responsibility for an action. This can reduce tension in a message.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Email address was incorrect.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Invalid email address.
+
 </Usage>
-```
+</UsageBlock>
 
 ## Present tense
 
 Use present tense to describe the result of actions.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Book added
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Book has been added
+
 </Usage>
-```
+</UsageBlock>
 
 ## Capitalization
 
@@ -83,7 +102,7 @@ All-caps should be used sparingly and only for specific purposes (all-caps copy 
 
 ## Contractions
 
-Use contractions like “we’ll” or “there’s!” They make our writing more conversational. 
+Use contractions like “we’ll” or “there’s!” They make our writing more conversational.
 
 However, don’t rely on contractions alone for a conversational voice. When we translate copy for our global audience, they almost won’t carry over.
 
@@ -91,72 +110,88 @@ However, don’t rely on contractions alone for a conversational voice. When we 
 
 Our voice is conversational. When we’re talking, we connect words with articles like “the,” “for,” “these,” and “an.” If we remove these from our writing, it makes our copy feel stiff and complicated. We can be flexible, though. If space is a limitation, the article can be omitted.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Choose a book
 - Save your changes
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Choose book
 - Save changes
+
 </Usage>
-```
+</UsageBlock>
 
 ## Avoid directional language
 
 Avoid any instructions or language that requires the user to see the layout or design of a page or element.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Choose a new book.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Choose a new book at the bottom right of this page.
+
 </Usage>
-```
+</UsageBlock>
 
 ## Numbers
 
 Use the numeral when numbers appear in copy. This includes ordinals (numbers that tell the position of something in a list).
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - You have 3 new recommendations
 - 2 days left to share a recommendation
 - This is your 3rd recommendation
+
 </Usage>
 <Usage type="no">
+
 ### No
 - You have three new recommendations
 - Two days left to share a recommendation
 - This is your third recommendation
+
 </Usage>
-```
+</UsageBlock>
 
 When writing in English, numbers over 3 digits get commas.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 144
 - 1,200
+
 </Usage>
-```
+</UsageBlock>
 
 When writing in languages like German, Swedish, and Dutch, numbers over 3 digits get a period.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 144
 - 1.200
+
 </Usage>
-```
+</UsageBlock>
 
 ### Dates
 
@@ -164,24 +199,27 @@ Spell out the day of the week and the month whenever possible. Abbreviate when s
 
 The order of day and month should match the user’s locale.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
-- **USA:**  
-Thursday, April 16  
-April 16  
+- **USA:**
+Thursday, April 16
+April 16
 Apr 16
-- **Germany:**  
-Thursday, 16 April  
-16 April  
+- **Germany:**
+Thursday, 16 April
+16 April
 16 Apr
+
 </Usage>
-```
+</UsageBlock>
 
 When possible, use natural language to describe dates.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Today
 - Yesterday
@@ -189,50 +227,61 @@ When possible, use natural language to describe dates.
 - This week
 - Next week
 - Two weeks from now
+
 </Usage>
-```
+</UsageBlock>
 
 ### Fractions
 
 Use typographic fractions when referencing measurements in ingredients. Don’t spell fractions out.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - ½
+
 </Usage>
 <Usage type="no">
+
 ### No
 - 1/2
 - one-half
+
 </Usage>
-```
+</UsageBlock>
 
 ### Percentages
 
 Use the % symbol instead of spelling out “percent.”
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 2%
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Two percent
+
 </Usage>
-```
+</UsageBlock>
 
 ### Ranges and spans
 
 Use an en dash (`–`) to indicate a range or span of numbers. Do not use spaces before and after the en dash.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 10–20 minute read
+
 </Usage>
-```
+</UsageBlock>
 
 An en dash is slightly wider than a hyphen (`-`) but narrower than an em dash (`—`).
 
@@ -240,111 +289,131 @@ An en dash is slightly wider than a hyphen (`-`) but narrower than an em dash (`
 
 When writing about US, CA, or AU currency, use the dollar sign ($) before the amount. Always include a decimal and number of cents. Do not insert a space between the dollar sign and the number.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - $10.00
 - $42.99
-</Usage>
-```
 
-When writing about EUR currency, use the Euro sign (€) after the amount. This applies in English, Dutch, Irish, and Maltese. 
+</Usage>
+</UsageBlock>
+
+When writing about EUR currency, use the Euro sign (€) after the amount. This applies in English, Dutch, Irish, and Maltese.
 
 In all other official EU languages the order is reversed: first the amount, then a space and the Euro sign.
 
 Always include a comma and number of cents. Note that English, Irish, and Maltese use a period instead of a comma. Look up local languages to confirm the correct separator for decimals.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
-- **In English, Dutch, Irish, and Maltese**  
-€10,00 or €10.00  
+- **In English, Dutch, Irish, and Maltese**
+€10,00 or €10.00
 €42,99 or €42.99
 
-- **In all other official EU languages**  
-10,00 €  
+- **In all other official EU languages**
+10,00 €
 42,99 €
+
 </Usage>
-```
+</UsageBlock>
 
 ### Telephone numbers
 
 Use dashes without spaces between numbers. Don’t use a country code.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 123-456-7890
 - 012-345-678-910
 - 02-345-6789
+
 </Usage>
-```
+</UsageBlock>
 
 ### Temperature
 
 Use the degree symbol and capital C abbreviation for Celsius (everywhere except the USA) or capital F abbreviation for Fahrenheit (USA only). Don’t insert spaces between the number and the abbreviation.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 220°C
 - 425°F
+
 </Usage>
-```
+</UsageBlock>
 
 ### Time
 
-When writing about a time of the day, use numerals and lowercase am or pm, with a space in between. Use 12- or 24-hour time according to the locale. When writing in 24-hour time, show a `0` before single-digit hours. 
+When writing about a time of the day, use numerals and lowercase am or pm, with a space in between. Use 12- or 24-hour time according to the locale. When writing in 24-hour time, show a `0` before single-digit hours.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 5 pm
 - 8:30 pm
 - 06:30
+
 </Usage>
 <Usage type="no">
+
 ### No
 - 5pm
 - 8:30PM
 - 6:30h
+
 </Usage>
-```
+</UsageBlock>
 
 Use an en dash (`–`) between times to indicate a time period. Don’t insert spaces before and after the en dash.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
-- 8 am–12 pm 
-- 06:30–18:00 
+- 8 am–12 pm
+- 06:30–18:00
+
 </Usage>
-```
+</UsageBlock>
 
 When referring to an amount of time, use numerals and the full word, with a space in between.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Sent 20 minutes ago
 - Received 30 seconds ago
+
 </Usage>
-```
+</UsageBlock>
 
 ### Units of measurement
 
 In all cases, include a space between the number and the unit of measurement.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 200 g
+
 </Usage>
 <Usage type="no">
+
 ### No
 - 200g
+
 </Usage>
-```
+</UsageBlock>
 
 ## Punctuation
 
@@ -354,73 +423,87 @@ Apostrophes are usually used to make a word possessive. If the word already ends
 
 Watch out for dumb apostrophes (`'`). These are a relic of typewriters, and can be identified by how they’re straight rather than curly. Always use typographic apostrophes (`‘`).
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - This recommendation’s new for you
 - This book is Jen’s favourite
 - Chris’s favourite book
+
 </Usage>
-```
+</UsageBlock>
 
 ### Colons
 
 Use a colon to offset a list.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - This books is known for three things: aliens, adventure, and bad poetry.
 
 When a list begins with an interface label, capitalize the first word of the list.
 
 - Genres: Fantasy, science fiction, and humour.
+
 </Usage>
-```
+</UsageBlock>
 
 ### Commas
 
 Use the Oxford comma when writing a list.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Common tropes include the big bad, Mordor, and spy speak.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Common tropes include the big bad, Mordor and spy speak.
+
 </Usage>
-```
+</UsageBlock>
 
 ### Dashes and hyphens
 
 Use a hyphen (`-`) without spaces before and after to link words into a single phrase.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - First-time reader?
+
 </Usage>
-```
+</UsageBlock>
 
 Use an en dash (`–`) to indicate a [range or span](#ranges-and-spans), without spaces.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 2–6 minute read
+
 </Usage>
-```
+</UsageBlock>
 
 Use an em (`—`) dash without spaces to separate clauses in paragraph copy.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - This new series—a first in science fiction—is perfect for readers looking for bad poetry.
+
 </Usage>
-```
+</UsageBlock>
 
 ### Ellipses
 
@@ -428,111 +511,139 @@ Use ellipses to indicate that a line of copy has been clipped before the end. Th
 
 When ellipses are used to clip a line of copy, clip after at least 2 characters.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Harry Potter and the Go…
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Harry Potter and the G…
+
 </Usage>
-```
+</UsageBlock>
 
 ### Periods
 
 Use periods in complete sentences. Don’t use periods in headlines or labels. Periods go inside quotation marks. They go outside parentheses ( ) when the contained text is part of a larger sentence, and inside when the contained text stands alone.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - 3 books on your list
 - We’ve updated the results to display only your selected languages (English, German).
+
 </Usage>
 <Usage type="no">
+
 ### No
 - 3 meals in your box.
+
 </Usage>
-```
+</UsageBlock>
 
 ### Quotation marks
 
 Watch out for dumb quotation marks (`'` and `"`). These are a relic of typewriters, and can be identified by how they’re straight rather than curly. Always use typographic quotation marks (`‘` and `’`, `“` and `”`).
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - ‘Example’
 - “Example Two”
+
 </Usage>
 <Usage type="no">
+
 ### No
 - 'Example'
 - "Example two"
+
 </Usage>
-```
+</UsageBlock>
 
 ## Places
 
-Spell out all city names. 
+Spell out all city names.
 
 When written in paragraph copy, write out country, state, and province names on the first mention. On subsequent mentions, abbreviating is fine.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Now available in Winnipeg.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Now available in WPG.
+
 </Usage>
-```
+</UsageBlock>
 
 ## Positive vs. negative
 
 Use positive language rather than negative language. Positives are easier to read and process than negatives. One way to detect negative language is to look for words like “can’t,” “don’t,” etc.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Update your payment method to access your account.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - If you don’t update your payment method, you won’t be able to access your account.
+
 </Usage>
-```
+</UsageBlock>
 
 ## Use positive words when talking about positive things
 
 If a sentence begins with a negative word, the sentence’s implication can be misinterpreted as negative.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Remember to save your new payment method
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Don’t forget to save your new payment method
+
 </Usage>
-```
+</UsageBlock>
 
 ## Writing questions
 
 A common error when writing questions is not constructing the sentence as a question. Usually, this can be fixed by changing the word order.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Why does “Dune” deserve a re-read?
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Why “Dune” deserves a re-read?
+
 </Usage>
-```
+</UsageBlock>
 
 ## Writing about ourselves
 
@@ -540,43 +651,53 @@ We have a few different names depending on whether we’re referring to our lega
 
 In our digital products, use our trade name for each market:
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - **CA & USA:** Foreword
 - **EU:** Forworded
+
 </Usage>
-```
+</UsageBlock>
 
 Always title case our name. Don’t abbreviate our name.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Foreword
+
 </Usage>
 <Usage type="no">
+
 ### No
 - FW
+
 </Usage>
-```
+</UsageBlock>
 
 Don’t capitalize descriptive product or feature names.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - our mobile app
 - reading recommendations
 - your list
+
 </Usage>
 <Usage type="no">
+
 ### No
 - our Mobile App
 - Reading Recommendations
 - your Lox
+
 </Usage>
-```
+</UsageBlock>
 
 ## Writing about people
 
@@ -590,38 +711,46 @@ Avoid disability-related idioms like “lame” or “falling on deaf ears.”
 
 Default to person-first language rather than identity-first language.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - they have a disability
 - person with disability
 - people living with disabilities
+
 </Usage>
 <Usage type="no">
+
 ### No
 - they are disabled
 - disabled person
+
 </Usage>
-```
+</UsageBlock>
 
 Do not use the term “edge cases” to describe users living with disabilities. This term further marginalizes people already living on the margins. Instead, use the term “stress cases.”
 
 ### Gender and sexuality
 
-Don’t call groups of people “guys.” Don’t call women “girls.” 
+Don’t call groups of people “guys.” Don’t call women “girls.”
 
 Avoid gendered terms.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Artisan
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Craftsman
+
 </Usage>
-```
+</UsageBlock>
 
 It’s okay to use “they” as a singular pronoun. If there’s no inherent purpose to specifying a gender, default to “they.”
 
@@ -639,69 +768,89 @@ Some words to watch out for:
 
 **Once** (could mean “one time,” “after,” “in the past,” or “when”)
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - After you’ve made your picks
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Once you’ve made your picks
+
 </Usage>
-```
+</UsageBlock>
 
 **Right** (could mean “correct,” “the opposite of left,” “politically conservative,” etc.)
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Pick the book you like most
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Pick the right book
+
 </Usage>
-```
+</UsageBlock>
 
 **Since** (could refer to a point in time, or a synonym of “because”)
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Because you have a referral already, you can invite a friend and get a free month
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Since you already have a referral, you can invite a friend and get a free month
+
 </Usage>
-```
+</UsageBlock>
 
 **“Require” plus an infinitive** (could confuse the relationship between subject and object)
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Referrals can be sent from any Foreword account.
+
 </Usage>
 <Usage type="no">
+
 ### No
 - A Foreword account is required to send referrals. _(This could imply that both the sender and receiver have to have a Foreword account to send a referral.)_
+
 </Usage>
-```
+</UsageBlock>
 
 ## Avoid idioms
 
 In most languages, idioms are commonly-known phrases packed with meaning. However, idioms don’t often translate into other languages. They can also create confusion for translators that have English as an additional language. It’s better to avoid using idioms at all.
 
-```usage
+<UsageBlock>
 <Usage type="yes">
+
 ### Yes
 - Let’s get started
 - This information might change
+
 </Usage>
 <Usage type="no">
+
 ### No
 - Let’s get crackin’
 - Take this with a grain of salt
+
 </Usage>
-```
+</UsageBlock>

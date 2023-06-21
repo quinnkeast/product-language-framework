@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 h1 {
   @apply text-4xl font-bold mb-6 text-gray-900;
@@ -60,11 +62,11 @@ ul li:first-of-type {
 }
 
 a {
-  @apply text-blue-600;
+  @apply text-blue-600 hover:text-blue-400 focus:outline;
 }
 
 .usage {
-  @apply pt-4 pr-6 pb-6 pl-6 rounded-b bg-gray-100;
+  @apply pt-4 pr-6 pb-6 pl-6 rounded-b-lg bg-gray-50;
 }
 
 .usage h3 {
@@ -88,8 +90,7 @@ code {
 }
 
 :focus {
-  outline: 0;
-  @apply shadow-outline;
+  @apply outline outline-2 outline-offset-2 rounded-sm;
 }
 
 blockquote {
