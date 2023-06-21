@@ -47,7 +47,7 @@ After completing the installation, run `npm run dev` to start the local developm
 
 #### Editing markdown
 
-After making changes to a `.mdx` file in `/docs`, you will need to reload the page to view your changes.
+After making changes to a `.mdx` file in `/_docs`, you will need to reload the page to view your changes.
 
 #### Usage component
 
