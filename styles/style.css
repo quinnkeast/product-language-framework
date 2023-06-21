@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-4xl font-bold mb-6 text-gray-900;
+  @apply text-2xl md:text-4xl font-bold mb-6 text-gray-900;
 }
 
 h2 {
-  @apply text-2xl font-bold mt-12 text-gray-900;
+  @apply text-xl md:text-2xl font-bold mt-12 text-gray-900;
 }
 
 h2 .anchor {
