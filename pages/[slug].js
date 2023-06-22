@@ -3,12 +3,13 @@ import Content from '../components/Content';
 import Head from 'next/head';
 import mdxToHtml from "../lib/mdxToHtml";
 import { getPageBySlug, getAllPages } from "../lib/api";
+import { SITE_NAME } from "../lib/constants";
 
 export default function Page({ page, pages }) {
   return(
     <Layout>
       <Head>
-        <title>{page.title}</title>
+        <title>{`${SITE_NAME} | ${page.title}`}</title>
       </Head>
       <Content page={page} pages={pages} path='content' key={page.slug} />
     </Layout>
