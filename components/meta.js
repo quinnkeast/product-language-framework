@@ -6,11 +6,7 @@ export default function Meta() {
   return (
     <Head>
       <title>{SITE_NAME}</title>
-      <script 
-        src='https://cdn.usefathom.com/script.js'
-        data-site={process.env.FATHOM}
-        defer
-      ></script>
+      <script src="https://cdn.usefathom.com/script.js" data-site="UMYTOYDL" defer></script>
       <meta
         property="og:description"
         content="A comprehensive set of useful and semi-universal UX copywriting and style guidelines and examples to reference while designing and building products and interfaces."
