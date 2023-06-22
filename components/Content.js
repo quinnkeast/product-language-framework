@@ -35,7 +35,7 @@ const Content = (props) => {
         currentPage={page.slug}
         currentPageTitle={page.title}
       />
-      <article className="md:col-span-5 md:pt-8">
+      <article className="md:col-span-5">
         <h1>{page.title}</h1>
         <ContentComponent
           components={{
