@@ -1,6 +1,6 @@
 import Header from './Header';
 import Footer from './Footer';
-import Meta from './Meta';
+import Meta from './meta';
 
 const Layout = (props) => {
   return (
