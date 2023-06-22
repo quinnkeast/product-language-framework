@@ -8,7 +8,7 @@ export default function Meta() {
       <title>{SITE_NAME}</title>
       <script 
         src='https://cdn.usefathom.com/script.js'
-        site={process.env.FATHOM}
+        data-site={process.env.FATHOM}
         defer
       ></script>
       <meta
