@@ -1,3 +1,5 @@
+![Pixel art of a pencil writing input helper text](https://www.uxlanguage.com/assets/icon.svg)
+
 # Product Language Framework
 
 A comprehensive set of UX copywriting and style guidelines to use as a reference, or to adapt for your product team’s own copywriting and style guidelines.
